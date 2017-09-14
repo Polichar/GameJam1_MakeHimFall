@@ -198,3 +198,18 @@ LogInit: Object subsystem initialized
 [2017.09.14-08.05.36:514][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
 [2017.09.14-08.05.36:588][  0]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
 [2017.09.14-08.05.36:639][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2017.09.14-08.10.21:928][906]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-08.11.48:658][288]LogTextFormatter:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2017.09.14-08.11.50:484][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-08.11.50:523][288]LogSavePackage: Save=22.95ms
+[2017.09.14-08.11.50:523][288]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_132156AEE4A6B8E686D28E18FBBDA0DF1.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
+[2017.09.14-08.11.50:524][288]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
+[2017.09.14-08.11.50:540][288]LogFileHelpers: Saving map 'Level_1' took 0.264
+[2017.09.14-08.11.55:555][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-08.11.55:589][588]LogSavePackage: Save=22.54ms
+[2017.09.14-08.11.55:589][588]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_1C545176449F190A756FFCCA67E662713.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
+[2017.09.14-08.11.55:590][588]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
+[2017.09.14-08.11.59:613][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jumper_BP" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Characters/Jumper_BP.uasset" SILENT=true
+[2017.09.14-08.11.59:628][826]LogSavePackage: Save=13.50ms
+[2017.09.14-08.11.59:628][826]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Jumper_BPE0F6F46B43B229C2EAF7D7866B79FF96.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Characters/Jumper_BP.uasset'
+[2017.09.14-08.11.59:630][826]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Characters/Jumper_BP.uasset
