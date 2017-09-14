@@ -213,3 +213,28 @@ LogInit: Object subsystem initialized
 [2017.09.14-08.11.59:628][826]LogSavePackage: Save=13.50ms
 [2017.09.14-08.11.59:628][826]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Jumper_BPE0F6F46B43B229C2EAF7D7866B79FF96.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Characters/Jumper_BP.uasset'
 [2017.09.14-08.11.59:630][826]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Characters/Jumper_BP.uasset
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.SKEL_Jumper_BP_C:UserConstructionScript' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.SKEL_Jumper_BP_C' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP_C:UserConstructionScript' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP_C' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:409][180]LogMetaData: Removing '/Game/BP/Characters/Jumper_BP.Jumper_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Characters/Jumper_BP.PackageMetaData'
+[2017.09.14-08.18.10:424][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/Jumper_BP" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/Jumper_BP.uasset" SILENT=true
+[2017.09.14-08.18.10:438][180]LogSavePackage: Save=13.00ms
+[2017.09.14-08.18.10:438][180]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Jumper_BP20C0D51E4BB7231E619DCF997BB78FF5.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/Jumper_BP.uasset'
+[2017.09.14-08.18.10:440][180]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/Jumper_BP.uasset
+[2017.09.14-08.20.18:261][241]LogMetaData: Removing '/Game/BP/GameModeMHF.GameModeMHF:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP/GameMode.PackageMetaData'
+[2017.09.14-08.20.18:261][241]LogMetaData: Removing '/Game/BP/GameModeMHF.SKEL_GameModeMHF_C' ref from Metadata '/Game/BP/GameMode.PackageMetaData'
+[2017.09.14-08.20.18:261][241]LogMetaData: Removing '/Game/BP/GameModeMHF.GameModeMHF_C' ref from Metadata '/Game/BP/GameMode.PackageMetaData'
+[2017.09.14-08.20.18:261][241]LogMetaData: Removing '/Game/BP/GameModeMHF.GameModeMHF:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/GameMode.PackageMetaData'
+[2017.09.14-08.20.18:261][241]LogMetaData: Removing '/Game/BP/GameModeMHF.GameModeMHF:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/GameMode.PackageMetaData'
+[2017.09.14-08.20.18:276][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/GameModeMHF" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/GameModeMHF.uasset" SILENT=true
+[2017.09.14-08.20.18:284][241]LogSavePackage: Save=7.70ms
+[2017.09.14-08.20.18:284][241]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/GameModeMHF6BE64EBD4D4700792F44B282A17DABEB.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/GameModeMHF.uasset'
+[2017.09.14-08.20.18:286][241]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/GameModeMHF.uasset
+[2017.09.14-08.20.21:618][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-08.20.21:663][437]LogSavePackage: Save=34.37ms
+[2017.09.14-08.20.21:663][437]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_101D651E34F2C7BFA3A80B880C126EF04.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
+[2017.09.14-08.20.21:664][437]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
