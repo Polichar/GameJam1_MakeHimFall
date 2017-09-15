@@ -1,9 +1,67 @@
-﻿Log file open, 09/15/17 03:54:40
-LogInit:Display: Running engine for game: MakeHimFall
+﻿Log file open, 09/15/17 12:06:03
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MakeHimFall
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1427115673) SRandInit(-1427115673).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.086089
+LogInit: Display: RandInit(487145153) SRandInit(487145153).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.180736
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,1206 +78,382 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.15-CL-3450819
-LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
-LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
-LogInit: Net CL: 3299760
-LogDevObjectVersion: Number of dev versions registered: 14
-LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
 LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
 LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
-LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
-LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
 LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
 LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
 LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
 LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
 LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
-LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
-LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
-LogInit: Compiled (64-bit): May 21 2017 11:02:34
-LogInit: Compiled with Visual C++: 19.00.23026.00
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Programme files/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.15-07.54.41:287][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.15-07.54.41:287][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.15-07.54.41:295][  0]LogInit: Computer: JMAX-PC
-[2017.09.15-07.54.41:295][  0]LogInit: User: JeanMaxime
-[2017.09.15-07.54.41:295][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.09.15-07.54.41:295][  0]LogInit: High frequency timer resolution =2.435780 MHz
-[2017.09.15-07.54.41:295][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.09.15-07.54.41:295][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.15-07.54.41:295][  0]LogMemory: Process Physical Memory: 263.78 MB used, 263.78 MB peak
-[2017.09.15-07.54.41:295][  0]LogMemory: Process Virtual Memory: 262.44 MB used, 262.44 MB peak
-[2017.09.15-07.54.41:295][  0]LogMemory: Physical Memory: 6264.60 MB used,  10002.40 MB free, 16267.00 MB total
-[2017.09.15-07.54.41:295][  0]LogMemory: Virtual Memory: 631.10 MB used,  10002.40 MB free, 134217728.00 MB total
-[2017.09.15-07.54.41:385][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
-[2017.09.15-07.54.42:064][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.15-07.54.42:683][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
-[2017.09.15-07.54.42:683][  0]LogD3D11RHI:       4065/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.15-07.54.42:689][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.09.15-07.54.42:689][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.15-07.54.42:690][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.15-07.54.42:690][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.15-07.54.42:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.15-07.54.42:696][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.15-07.54.42:696][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.15-07.54.42:696][  0]LogWindows: EnumDisplayDevices:
-[2017.09.15-07.54.42:696][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.09.15-07.54.42:696][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.09.15-07.54.42:697][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.09.15-07.54.42:697][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.09.15-07.54.42:697][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
-[2017.09.15-07.54.42:697][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.09.15-07.54.42:697][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.09.15-07.54.42:697][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.15-07.54.43:273][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.15-07.54.43:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.09.15-07.54.43:311][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/GameJam1_MakeHimFall/MakeHimFall/Intermediate/Shaders/WorkingDirectory/12576/).
-[2017.09.15-07.54.43:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jean-Maxime/AppData/Local/Temp/UnrealShaderWorkingDir/E9A4B6F8476727DCBE756FB66A8442F7/'.
-[2017.09.15-07.54.43:311][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.15-07.54.44:450][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.15-07.54.44:517][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.15-07.54.44:585][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.15-07.54.44:650][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.15-07.54.44:715][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.15-07.54.44:781][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.15-07.54.44:846][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.15-07.54.44:912][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.15-07.54.44:970][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.15-07.54.45:034][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.15-07.54.45:098][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.15-07.54.45:161][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.15-07.54.45:226][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.15-07.54.45:290][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.15-07.54.45:353][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.15-07.54.45:481][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.15-07.54.45:481][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.15-07.54.45:529][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.15-07.54.45:640][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.15-07.54.45:676][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.15-07.54.45:738][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.15-07.54.45:800][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.15-07.54.45:862][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.15-07.54.45:925][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.15-07.54.45:925][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.15-07.54.46:441][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.15-07.54.46:498][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.15-07.54.46:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.15-07.54.46:529][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.15-07.54.46:539][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.15-07.54.46:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.15-07.54.46:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.15-07.54.46:851][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.15-07.54.46:853][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.15-07.54.47:091][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.15-07.54.47:147][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.15-07.54.47:210][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.15-07.54.47:210][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.15-07.54.47:210][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.15-07.54.47:795][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: makehimfall, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4172576148
-[2017.09.15-07.54.47:845][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
-[2017.09.15-07.54.47:881][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.010145 seconds
-[2017.09.15-07.54.47:886][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.09.15-07.54.47:886][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.09.15-07.54.47:886][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.15-07.54.47:959][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.15-07.54.49:968][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.15-07.54.50:015][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.15-07.54.50:578][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.15-07.54.51:054][  0]SourceControl: Info Source control is disabled
-[2017.09.15-07.54.51:055][  0]SourceControl: Info Source control is disabled
-[2017.09.15-07.54.51:118][  0]SourceControl: Info Source control is disabled
-[2017.09.15-07.54.51:183][  0]SourceControl: Info Source control is disabled
-[2017.09.15-07.54.52:794][  0]LogEngine: Initializing Engine...
-[2017.09.15-07.54.52:795][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.15-07.54.52:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.15-07.54.52:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.15-07.54.53:062][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.15-07.54.53:071][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-07.54.53:202][  0]LogInit: FAudioDevice initialized.
-[2017.09.15-07.54.53:231][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.09.15-07.54.53:239][  0]LogInit: Texture streaming: Enabled
-[2017.09.15-07.54.53:349][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.15-07.54.53:460][  0]LogInit: Transaction tracking system initialized
-[2017.09.15-07.54.53:897][  0]BlueprintLog: New page: Editor Load
-[2017.09.15-07.54.54:988][  0]LocalizationService: Info Localization service is disabled
-[2017.09.15-07.54.55:824][  0]LogConsoleResponse:Display: 
-[2017.09.15-07.54.55:956][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.15-07.54.55:956][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.15-07.54.56:377][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.01s
-[2017.09.15-07.54.57:301][  0]SourceControl: Info Source control is disabled
-[2017.09.15-07.54.57:301][  0]Cmd: MAP LOAD FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.15-07.54.57:302][  0]LightingResults: New page: Lighting Build
-[2017.09.15-07.54.57:354][  0]MapCheck: New page: Map Check
-[2017.09.15-07.54.57:354][  0]LightingResults: New page: Lighting Build
-[2017.09.15-07.54.57:631][  0]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-07.54.57:658][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.15-07.54.57:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.15-07.54.57:732][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.798ms to complete.
-[2017.09.15-07.54.57:732][  0]LogFileHelpers: Loading map 'Level_1' took 0.431
-[2017.09.15-07.54.57:787][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.15-07.54.57:918][  0]LogCollectionManager: Loaded 0 collections in 0.002765 seconds
-[2017.09.15-07.54.58:031][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' took 0.01s
-[2017.09.15-07.54.58:031][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/JeanMaxime/Collections/' took 0.01s
-[2017.09.15-07.54.58:031][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' took 0.01s
-[2017.09.15-07.54.58:031][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.09.15-07.54.58:040][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2245 classes and 453 folders.
-[2017.09.15-07.54.58:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.15-07.54.58:183][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.15-07.54.58:237][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.09.15-07.54.58:292][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.15-07.54.58:299][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.09.15-07.54.58:391][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.09.15-07.54.58:391][  0]LogLoad: (Engine Initialization) Total time: 19.32 seconds
-[2017.09.15-07.54.58:391][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
-[2017.09.15-07.54.58:391][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.15-07.54.58:391][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.15-07.54.58:411][  0]LogOcInput: OculusInput pre-init called
-[2017.09.15-07.54.58:440][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.15-07.54.58:441][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.15-07.54.58:445][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.15-07.54.58:451][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.15-07.54.58:531][  0]LogSlate: Took 0.000576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.15-07.54.58:593][  0]LogRenderer: Reallocating scene render targets to support 864x420 NumSamples 1 (Frame:2).
-[2017.09.15-07.54.58:680][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.26s
-[2017.09.15-07.54.58:830][  5]LogAssetRegistry: Asset discovery search completed in 11.0063 seconds
-[2017.09.15-07.54.58:830][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
-[2017.09.15-07.54.58:830][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2017.09.15-07.55.10:251][690]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.09.15-07.55.13:239][867]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.15-07.55.13:699][867]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
-[2017.09.15-07.55.14:303][867]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.15-07.55.14:381][867]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.15-07.55.14:490][868]LogSlate: Took 0.000606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.15-08.06.06:887][320]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.09.15-08.06.26:091][471]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.15-08.06.35:151][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/Level_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.09.15-08.06.35:259][ 11]LogSavePackage: Save=103.94ms
-[2017.09.15-08.06.35:259][ 11]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_1_Auto14B7B64ED489A13B7E7D494AAE7E111C8.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/Level_1_Auto1.umap'
-[2017.09.15-08.06.35:260][ 11]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/Level_1_Auto1.umap
-[2017.09.15-08.06.35:262][ 11]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1' took 0.141
-[2017.09.15-08.06.35:262][ 11]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
-[2017.09.15-08.13.22:340][406]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.13.34:155][100]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.13.34:855][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.13.34:885][131]LogSavePackage: Save=23.90ms
-[2017.09.15-08.13.34:885][131]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMasterFB0773EB42E1578FCFE052AD3A500F40.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.13.34:887][131]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.13.37:403][282]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.13.37:413][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.13.37:413][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.13.37:414][282]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:13:37 AM)
-[2017.09.15-08.13.37:417][282]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.13.37:420][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002849s)
-[2017.09.15-08.13.37:421][282]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.13.37:421][282]LogPlayLevel: PIE: World Init took: (0.001100s)
-[2017.09.15-08.13.37:421][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004172s)
-[2017.09.15-08.13.37:437][282]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.13.37:451][282]LogInit: FAudioDevice initialized.
-[2017.09.15-08.13.37:511][282]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.13.37:513][282]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.13.37
-[2017.09.15-08.13.37:513][282]LogWorld: Bringing up level for play took: 0.001204
-[2017.09.15-08.13.37:572][282]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.09.15-08.13.37:580][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.782
-[2017.09.15-08.13.37:582][282]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:13:37 AM)
-[2017.09.15-08.13.37:582][282]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.13.37:586][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003922s)
-[2017.09.15-08.13.37:587][282]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.13.37:588][282]LogPlayLevel: PIE: World Init took: (0.001400s)
-[2017.09.15-08.13.37:588][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.005592s)
-[2017.09.15-08.13.37:657][282]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.13.37:659][282]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.13.37
-[2017.09.15-08.13.37:659][282]LogWorld: Bringing up level for play took: 0.001251
-[2017.09.15-08.13.37:666][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.868
-[2017.09.15-08.13.37:679][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.13.50:424][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.13.50:513][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: libcurl info message cache 0 (Connection 6 seems to be dead!)
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: libcurl info message cache 1 (Closing connection 6)
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
-[2017.09.15-08.15.11:830][629]LogHttp:Warning: 0000016B4C52CD00: libcurl info message cache 4 (Closing connection 7)
-[2017.09.15-08.19.05:481][547]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.19.06:385][594]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.19.06:395][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.19.06:395][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.19.06:397][594]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:19:06 AM)
-[2017.09.15-08.19.06:397][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.19.06:399][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
-[2017.09.15-08.19.06:400][594]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.19.06:400][594]LogPlayLevel: PIE: World Init took: (0.000873s)
-[2017.09.15-08.19.06:400][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003469s)
-[2017.09.15-08.19.06:417][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.19.06:429][594]LogInit: FAudioDevice initialized.
-[2017.09.15-08.19.06:474][594]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.19.06:476][594]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.19.06
-[2017.09.15-08.19.06:476][594]LogWorld: Bringing up level for play took: 0.001122
-[2017.09.15-08.19.06:483][594]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.316
-[2017.09.15-08.19.06:485][594]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:19:06 AM)
-[2017.09.15-08.19.06:485][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.19.06:487][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002003s)
-[2017.09.15-08.19.06:487][594]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.19.06:487][594]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2017.09.15-08.19.06:488][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.002896s)
-[2017.09.15-08.19.06:555][594]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.19.06:557][594]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.19.06
-[2017.09.15-08.19.06:557][594]LogWorld: Bringing up level for play took: 0.001287
-[2017.09.15-08.19.06:564][594]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.234
-[2017.09.15-08.19.06:580][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.19.19:381][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.19.19:471][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.19.45:682][924]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1' took 0.014
-[2017.09.15-08.19.45:684][924]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Characters/BP_TowerMaster] ([1] browsable assets)...
-[2017.09.15-08.19.45:684][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Characters/BP_TowerMaster]
-[2017.09.15-08.19.45:684][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.09.15-08.19.45:709][924]LogSavePackage: Save=21.86ms
-[2017.09.15-08.19.45:709][924]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster_Auto270286F3A4769192C2C3C4EB5EEF0FEEA.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto2.uasset'
-[2017.09.15-08.19.45:710][924]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto2.uasset
-[2017.09.15-08.19.45:710][924]LogFileHelpers: Auto-saving content packages took 0.027
-[2017.09.15-08.20.57:788][215]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.20.59:680][321]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.20.59:690][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.20.59:690][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.20.59:692][321]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:20:59 AM)
-[2017.09.15-08.20.59:692][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.20.59:694][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002272s)
-[2017.09.15-08.20.59:695][321]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.20.59:695][321]LogPlayLevel: PIE: World Init took: (0.000867s)
-[2017.09.15-08.20.59:695][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003375s)
-[2017.09.15-08.20.59:717][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.20.59:730][321]LogInit: FAudioDevice initialized.
-[2017.09.15-08.20.59:774][321]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.20.59:777][321]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.20.59
-[2017.09.15-08.20.59:777][321]LogWorld: Bringing up level for play took: 0.001384
-[2017.09.15-08.20.59:784][321]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.986
-[2017.09.15-08.20.59:786][321]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:20:59 AM)
-[2017.09.15-08.20.59:786][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.20.59:788][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002035s)
-[2017.09.15-08.20.59:789][321]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.20.59:789][321]LogPlayLevel: PIE: World Init took: (0.001053s)
-[2017.09.15-08.20.59:789][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003401s)
-[2017.09.15-08.20.59:856][321]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.20.59:859][321]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.20.59
-[2017.09.15-08.20.59:859][321]LogWorld: Bringing up level for play took: 0.002252
-[2017.09.15-08.20.59:867][321]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 1.068
-[2017.09.15-08.20.59:882][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.07:353][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.07:445][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.20:321][530]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.21.20:923][559]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.21.20:933][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.20:933][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.21.20:934][559]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:21:20 AM)
-[2017.09.15-08.21.20:934][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.21.20:936][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
-[2017.09.15-08.21.20:937][559]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.21.20:938][559]LogPlayLevel: PIE: World Init took: (0.001066s)
-[2017.09.15-08.21.20:938][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003217s)
-[2017.09.15-08.21.20:955][559]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.21.20:968][559]LogInit: FAudioDevice initialized.
-[2017.09.15-08.21.21:016][559]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.21.21:018][559]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.21.21
-[2017.09.15-08.21.21:019][559]LogWorld: Bringing up level for play took: 0.001304
-[2017.09.15-08.21.21:027][559]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.229
-[2017.09.15-08.21.21:029][559]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:21:21 AM)
-[2017.09.15-08.21.21:029][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.21.21:031][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002214s)
-[2017.09.15-08.21.21:032][559]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.21.21:033][559]LogPlayLevel: PIE: World Init took: (0.001383s)
-[2017.09.15-08.21.21:033][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003988s)
-[2017.09.15-08.21.21:106][559]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.21.21:109][559]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.21.21
-[2017.09.15-08.21.21:109][559]LogWorld: Bringing up level for play took: 0.001232
-[2017.09.15-08.21.21:117][559]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.319
-[2017.09.15-08.21.21:133][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.27:241][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.21.27:328][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.23.01:376][805]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.23.02:139][843]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.23.02:149][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.23.02:149][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.23.02:150][843]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:23:02 AM)
-[2017.09.15-08.23.02:151][843]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.23.02:153][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
-[2017.09.15-08.23.02:154][843]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.23.02:154][843]LogPlayLevel: PIE: World Init took: (0.001354s)
-[2017.09.15-08.23.02:155][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004070s)
-[2017.09.15-08.23.02:171][843]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.23.02:184][843]LogInit: FAudioDevice initialized.
-[2017.09.15-08.23.02:230][843]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.23.02:232][843]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.23.02
-[2017.09.15-08.23.02:232][843]LogWorld: Bringing up level for play took: 0.001341
-[2017.09.15-08.23.02:239][843]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.559
-[2017.09.15-08.23.02:241][843]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:23:02 AM)
-[2017.09.15-08.23.02:241][843]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.23.02:243][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002220s)
-[2017.09.15-08.23.02:244][843]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.23.02:244][843]LogPlayLevel: PIE: World Init took: (0.001294s)
-[2017.09.15-08.23.02:244][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003752s)
-[2017.09.15-08.23.02:317][843]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.23.02:319][843]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.23.02
-[2017.09.15-08.23.02:319][843]LogWorld: Bringing up level for play took: 0.001309
-[2017.09.15-08.23.02:326][843]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.473
-[2017.09.15-08.23.02:341][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.23.06:303][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.23.06:393][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.26:762][462]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.27.27:586][504]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.27.27:597][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.27:597][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.27.27:598][504]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:27:27 AM)
-[2017.09.15-08.27.27:598][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.27.27:600][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002422s)
-[2017.09.15-08.27.27:602][504]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.27.27:602][504]LogPlayLevel: PIE: World Init took: (0.001766s)
-[2017.09.15-08.27.27:602][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004419s)
-[2017.09.15-08.27.27:623][504]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.27.27:636][504]LogInit: FAudioDevice initialized.
-[2017.09.15-08.27.27:680][504]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.27.27:682][504]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.27.27
-[2017.09.15-08.27.27:683][504]LogWorld: Bringing up level for play took: 0.001362
-[2017.09.15-08.27.27:691][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.893
-[2017.09.15-08.27.27:694][504]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:27:27 AM)
-[2017.09.15-08.27.27:694][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.27.27:696][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002356s)
-[2017.09.15-08.27.27:697][504]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.27.27:697][504]LogPlayLevel: PIE: World Init took: (0.001110s)
-[2017.09.15-08.27.27:697][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003672s)
-[2017.09.15-08.27.27:769][504]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.27.27:772][504]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.27.27
-[2017.09.15-08.27.27:772][504]LogWorld: Bringing up level for play took: 0.001059
-[2017.09.15-08.27.27:779][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.98
-[2017.09.15-08.27.27:795][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.29:215][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.29:306][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.40:266][234]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.27.40:988][270]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.27.41:000][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.41:000][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.27.41:001][270]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:27:41 AM)
-[2017.09.15-08.27.41:001][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.27.41:003][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
-[2017.09.15-08.27.41:004][270]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.27.41:004][270]LogPlayLevel: PIE: World Init took: (0.000984s)
-[2017.09.15-08.27.41:004][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003133s)
-[2017.09.15-08.27.41:022][270]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.27.41:035][270]LogInit: FAudioDevice initialized.
-[2017.09.15-08.27.41:085][270]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.27.41:087][270]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.27.41
-[2017.09.15-08.27.41:087][270]LogWorld: Bringing up level for play took: 0.001242
-[2017.09.15-08.27.41:096][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.298
-[2017.09.15-08.27.41:098][270]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:27:41 AM)
-[2017.09.15-08.27.41:098][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.27.41:100][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002066s)
-[2017.09.15-08.27.41:101][270]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.27.41:101][270]LogPlayLevel: PIE: World Init took: (0.000704s)
-[2017.09.15-08.27.41:101][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.002985s)
-[2017.09.15-08.27.41:173][270]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.27.41:176][270]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.27.41
-[2017.09.15-08.27.41:176][270]LogWorld: Bringing up level for play took: 0.001443
-[2017.09.15-08.27.41:185][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.386
-[2017.09.15-08.27.41:202][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.45:193][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.27.45:285][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.02:633][538]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.28.03:315][571]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.28.03:324][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.03:324][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.28.03:327][571]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:28:03 AM)
-[2017.09.15-08.28.03:327][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.28.03:329][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002725s)
-[2017.09.15-08.28.03:330][571]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.28.03:330][571]LogPlayLevel: PIE: World Init took: (0.000875s)
-[2017.09.15-08.28.03:331][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003847s)
-[2017.09.15-08.28.03:351][571]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.28.03:363][571]LogInit: FAudioDevice initialized.
-[2017.09.15-08.28.03:406][571]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.28.03:408][571]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.28.03
-[2017.09.15-08.28.03:408][571]LogWorld: Bringing up level for play took: 0.001081
-[2017.09.15-08.28.03:416][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.618
-[2017.09.15-08.28.03:418][571]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:28:03 AM)
-[2017.09.15-08.28.03:418][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.28.03:420][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
-[2017.09.15-08.28.03:420][571]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.28.03:421][571]LogPlayLevel: PIE: World Init took: (0.000747s)
-[2017.09.15-08.28.03:421][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.002870s)
-[2017.09.15-08.28.03:490][571]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.28.03:492][571]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.28.03
-[2017.09.15-08.28.03:493][571]LogWorld: Bringing up level for play took: 0.001112
-[2017.09.15-08.28.03:501][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.703
-[2017.09.15-08.28.03:517][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.10:174][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.10:266][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.40:478][742]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.28.41:237][780]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.28.41:247][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.41:247][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.28.41:248][780]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:28:41 AM)
-[2017.09.15-08.28.41:249][780]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.28.41:251][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002868s)
-[2017.09.15-08.28.41:252][780]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.28.41:253][780]LogPlayLevel: PIE: World Init took: (0.001058s)
-[2017.09.15-08.28.41:253][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004142s)
-[2017.09.15-08.28.41:273][780]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.28.41:285][780]LogInit: FAudioDevice initialized.
-[2017.09.15-08.28.41:336][780]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.28.41:338][780]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.28.41
-[2017.09.15-08.28.41:338][780]LogWorld: Bringing up level for play took: 0.001158
-[2017.09.15-08.28.41:346][780]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.547
-[2017.09.15-08.28.41:347][780]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:28:41 AM)
-[2017.09.15-08.28.41:347][780]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.28.41:350][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003096s)
-[2017.09.15-08.28.41:351][780]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.28.41:351][780]LogPlayLevel: PIE: World Init took: (0.000998s)
-[2017.09.15-08.28.41:352][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.004393s)
-[2017.09.15-08.28.41:417][780]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.28.41:419][780]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.28.41
-[2017.09.15-08.28.41:419][780]LogWorld: Bringing up level for play took: 0.001083
-[2017.09.15-08.28.41:427][780]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.628
-[2017.09.15-08.28.41:442][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.44:308][947]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.28.44:398][947]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.10:745][497]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.29.12:889][618]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.29.12:900][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.12:901][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.29.12:902][618]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:29:12 AM)
-[2017.09.15-08.29.12:902][618]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.29.12:905][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002160s)
-[2017.09.15-08.29.12:905][618]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.29.12:906][618]LogPlayLevel: PIE: World Init took: (0.001232s)
-[2017.09.15-08.29.12:906][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003639s)
-[2017.09.15-08.29.12:924][618]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.29.12:937][618]LogInit: FAudioDevice initialized.
-[2017.09.15-08.29.12:985][618]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.29.12:987][618]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.29.12
-[2017.09.15-08.29.12:988][618]LogWorld: Bringing up level for play took: 0.001244
-[2017.09.15-08.29.12:995][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.196
-[2017.09.15-08.29.12:996][618]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:29:12 AM)
-[2017.09.15-08.29.12:996][618]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.29.13:000][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003300s)
-[2017.09.15-08.29.13:001][618]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.29.13:001][618]LogPlayLevel: PIE: World Init took: (0.001074s)
-[2017.09.15-08.29.13:001][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.004716s)
-[2017.09.15-08.29.13:074][618]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.29.13:076][618]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.29.13
-[2017.09.15-08.29.13:076][618]LogWorld: Bringing up level for play took: 0.001075
-[2017.09.15-08.29.13:085][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.286
-[2017.09.15-08.29.13:100][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.26:548][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.26:640][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.46:138][557]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.29.47:011][601]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.29.47:021][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.47:021][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.29.47:023][601]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:29:47 AM)
-[2017.09.15-08.29.47:023][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.29.47:025][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002067s)
-[2017.09.15-08.29.47:025][601]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.29.47:025][601]LogPlayLevel: PIE: World Init took: (0.000699s)
-[2017.09.15-08.29.47:026][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.002991s)
-[2017.09.15-08.29.47:043][601]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.29.47:056][601]LogInit: FAudioDevice initialized.
-[2017.09.15-08.29.47:103][601]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.29.47:105][601]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.29.47
-[2017.09.15-08.29.47:105][601]LogWorld: Bringing up level for play took: 0.001338
-[2017.09.15-08.29.47:114][601]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.315
-[2017.09.15-08.29.47:115][601]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:29:47 AM)
-[2017.09.15-08.29.47:115][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.29.47:118][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002384s)
-[2017.09.15-08.29.47:119][601]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.29.47:119][601]LogPlayLevel: PIE: World Init took: (0.001140s)
-[2017.09.15-08.29.47:119][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003747s)
-[2017.09.15-08.29.47:193][601]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.29.47:195][601]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.29.47
-[2017.09.15-08.29.47:196][601]LogWorld: Bringing up level for play took: 0.001036
-[2017.09.15-08.29.47:203][601]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.404
-[2017.09.15-08.29.47:218][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.57:185][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.29.57:282][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.31.10:557][525]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.31.50:146][864]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.31.51:028][910]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.31.51:038][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.31.51:038][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.31.51:040][910]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:31:51 AM)
-[2017.09.15-08.31.51:040][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.31.51:042][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
-[2017.09.15-08.31.51:043][910]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.31.51:043][910]LogPlayLevel: PIE: World Init took: (0.001129s)
-[2017.09.15-08.31.51:044][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003906s)
-[2017.09.15-08.31.51:061][910]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.31.51:075][910]LogInit: FAudioDevice initialized.
-[2017.09.15-08.31.51:116][910]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.31.51:118][910]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.31.51
-[2017.09.15-08.31.51:118][910]LogWorld: Bringing up level for play took: 0.001269
-[2017.09.15-08.31.51:125][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.327
-[2017.09.15-08.31.51:127][910]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:31:51 AM)
-[2017.09.15-08.31.51:127][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.31.51:129][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
-[2017.09.15-08.31.51:130][910]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.31.51:130][910]LogPlayLevel: PIE: World Init took: (0.000827s)
-[2017.09.15-08.31.51:130][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003626s)
-[2017.09.15-08.31.51:197][910]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.31.51:199][910]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.31.51
-[2017.09.15-08.31.51:200][910]LogWorld: Bringing up level for play took: 0.001219
-[2017.09.15-08.31.51:207][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.408
-[2017.09.15-08.31.51:220][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.31.55:259][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.31.55:346][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.32.02:228][556]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.32.03:058][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.32.03:086][598]LogSavePackage: Save=23.66ms
-[2017.09.15-08.32.03:086][598]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster4EAC60A045814DED6BECA1BF7C939949.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.32.03:088][598]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.32.28:885][133]BlueprintLog: New page: Collapse to Function
-[2017.09.15-08.32.31:577][270]LogEditorTransaction: Undo Collapses selected nodes into a single node
-[2017.09.15-08.33.03:649][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1' took 0.023
-[2017.09.15-08.33.03:651][780]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Characters/BP_TowerMaster] ([1] browsable assets)...
-[2017.09.15-08.33.03:651][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Characters/BP_TowerMaster]
-[2017.09.15-08.33.03:651][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2017.09.15-08.33.03:678][780]LogSavePackage: Save=23.71ms
-[2017.09.15-08.33.03:678][780]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster_Auto3E7A02E7F4C32530C420AA8BF09680965.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto3.uasset'
-[2017.09.15-08.33.03:679][780]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/BP/Characters/BP_TowerMaster_Auto3.uasset
-[2017.09.15-08.33.03:679][780]LogFileHelpers: Auto-saving content packages took 0.030
-[2017.09.15-08.34.31:184][ 87]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.34.32:007][129]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.34.32:018][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.32:018][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.34.32:019][129]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:34:32 AM)
-[2017.09.15-08.34.32:019][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.34.32:022][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002956s)
-[2017.09.15-08.34.32:023][129]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.34.32:023][129]LogPlayLevel: PIE: World Init took: (0.001121s)
-[2017.09.15-08.34.32:023][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004265s)
-[2017.09.15-08.34.32:041][129]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.34.32:054][129]LogInit: FAudioDevice initialized.
-[2017.09.15-08.34.32:100][129]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.34.32:102][129]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.34.32
-[2017.09.15-08.34.32:102][129]LogWorld: Bringing up level for play took: 0.001397
-[2017.09.15-08.34.32:111][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.688
-[2017.09.15-08.34.32:112][129]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:34:32 AM)
-[2017.09.15-08.34.32:112][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.34.32:114][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001971s)
-[2017.09.15-08.34.32:115][129]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.34.32:115][129]LogPlayLevel: PIE: World Init took: (0.001010s)
-[2017.09.15-08.34.32:116][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003210s)
-[2017.09.15-08.34.32:182][129]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.34.32:183][129]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.34.32
-[2017.09.15-08.34.32:184][129]LogWorld: Bringing up level for play took: 0.000995
-[2017.09.15-08.34.32:192][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.607
-[2017.09.15-08.34.32:208][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.41:738][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.41:831][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.45:839][933]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.34.46:638][974]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.34.46:649][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.46:650][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.34.46:651][974]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:34:46 AM)
-[2017.09.15-08.34.46:651][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.34.46:653][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002045s)
-[2017.09.15-08.34.46:654][974]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.34.46:654][974]LogPlayLevel: PIE: World Init took: (0.000822s)
-[2017.09.15-08.34.46:654][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003109s)
-[2017.09.15-08.34.46:671][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.34.46:683][974]LogInit: FAudioDevice initialized.
-[2017.09.15-08.34.46:728][974]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.34.46:731][974]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.34.46
-[2017.09.15-08.34.46:731][974]LogWorld: Bringing up level for play took: 0.001700
-[2017.09.15-08.34.46:738][974]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.06
-[2017.09.15-08.34.46:740][974]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:34:46 AM)
-[2017.09.15-08.34.46:740][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.34.46:742][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
-[2017.09.15-08.34.46:743][974]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.34.46:743][974]LogPlayLevel: PIE: World Init took: (0.001022s)
-[2017.09.15-08.34.46:743][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003153s)
-[2017.09.15-08.34.46:811][974]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.34.46:814][974]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.34.46
-[2017.09.15-08.34.46:814][974]LogWorld: Bringing up level for play took: 0.001454
-[2017.09.15-08.34.46:821][974]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.023
-[2017.09.15-08.34.46:835][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.54:298][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.34.54:389][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.35.58:638][219]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.35.59:462][261]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.35.59:473][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.35.59:473][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.35.59:474][261]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:35:59 AM)
-[2017.09.15-08.35.59:474][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.35.59:476][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002221s)
-[2017.09.15-08.35.59:477][261]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.35.59:477][261]LogPlayLevel: PIE: World Init took: (0.000810s)
-[2017.09.15-08.35.59:477][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003261s)
-[2017.09.15-08.35.59:497][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.35.59:510][261]LogInit: FAudioDevice initialized.
-[2017.09.15-08.35.59:552][261]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.35.59:554][261]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.35.59
-[2017.09.15-08.35.59:554][261]LogWorld: Bringing up level for play took: 0.001115
-[2017.09.15-08.35.59:563][261]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.764
-[2017.09.15-08.35.59:565][261]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:35:59 AM)
-[2017.09.15-08.35.59:565][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.35.59:567][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002066s)
-[2017.09.15-08.35.59:568][261]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.35.59:568][261]LogPlayLevel: PIE: World Init took: (0.000961s)
-[2017.09.15-08.35.59:568][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003266s)
-[2017.09.15-08.35.59:633][261]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.35.59:635][261]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.35.59
-[2017.09.15-08.35.59:636][261]LogWorld: Bringing up level for play took: 0.001266
-[2017.09.15-08.35.59:643][261]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.844
-[2017.09.15-08.35.59:657][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.08:080][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.08:168][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.14:494][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.36.14:536][137]LogSavePackage: Save=24.80ms
-[2017.09.15-08.36.14:536][137]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster6ABC95E2412477A92F09F1988E48AD3B.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.36.14:538][137]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.36.15:253][180]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.36.15:264][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.15:264][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.36.15:265][180]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:36:15 AM)
-[2017.09.15-08.36.15:265][180]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.36.15:267][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001983s)
-[2017.09.15-08.36.15:268][180]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.36.15:268][180]LogPlayLevel: PIE: World Init took: (0.001000s)
-[2017.09.15-08.36.15:268][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003286s)
-[2017.09.15-08.36.15:286][180]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.36.15:298][180]LogInit: FAudioDevice initialized.
-[2017.09.15-08.36.15:340][180]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.36.15:342][180]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.36.15
-[2017.09.15-08.36.15:342][180]LogWorld: Bringing up level for play took: 0.000980
-[2017.09.15-08.36.15:349][180]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.551
-[2017.09.15-08.36.15:351][180]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:36:15 AM)
-[2017.09.15-08.36.15:351][180]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.36.15:353][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002066s)
-[2017.09.15-08.36.15:355][180]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.36.15:355][180]LogPlayLevel: PIE: World Init took: (0.001811s)
-[2017.09.15-08.36.15:355][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.004156s)
-[2017.09.15-08.36.15:417][180]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.36.15:419][180]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.36.15
-[2017.09.15-08.36.15:420][180]LogWorld: Bringing up level for play took: 0.001563
-[2017.09.15-08.36.15:428][180]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.63
-[2017.09.15-08.36.15:444][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.18:842][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.18:928][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.24:188][626]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.09.15-08.36.24:286][629]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MakeHimFall
-
-[2017.09.15-08.36.24:286][629]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2017.09.15-08.36.24:286][629]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
-
-[2017.09.15-08.36.24:286][629]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2017.09.15-08.36.24:286][629]LogTemp:Display: BranchPath = JMAX-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = JMAX-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Impossible de trouver une partie du chemin d'acc?s 'C:\Users\Jean-Maxime\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display:    ? System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display:    ? System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display:    ? System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display:    ? iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.09.15-08.36.24:313][631]LogTemp:Display:    ? iPhonePackager.Program.Main(String[] args)
-
-[2017.09.15-08.36.40:013][569]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.36.40:023][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.40:023][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.36.40:024][569]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:36:40 AM)
-[2017.09.15-08.36.40:024][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.36.40:026][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002120s)
-[2017.09.15-08.36.40:027][569]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.36.40:027][569]LogPlayLevel: PIE: World Init took: (0.000675s)
-[2017.09.15-08.36.40:027][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003002s)
-[2017.09.15-08.36.40:049][569]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.36.40:061][569]LogInit: FAudioDevice initialized.
-[2017.09.15-08.36.40:106][569]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.36.40:108][569]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.36.40
-[2017.09.15-08.36.40:108][569]LogWorld: Bringing up level for play took: 0.001186
-[2017.09.15-08.36.40:117][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.682
-[2017.09.15-08.36.40:118][569]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:36:40 AM)
-[2017.09.15-08.36.40:118][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.36.40:121][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002134s)
-[2017.09.15-08.36.40:121][569]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.36.40:121][569]LogPlayLevel: PIE: World Init took: (0.000858s)
-[2017.09.15-08.36.40:122][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003305s)
-[2017.09.15-08.36.40:190][569]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.36.40:192][569]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.36.40
-[2017.09.15-08.36.40:192][569]LogWorld: Bringing up level for play took: 0.001173
-[2017.09.15-08.36.40:201][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.597
-[2017.09.15-08.36.40:217][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.45:192][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.45:282][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.36.53:254][209]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.09.15-08.36.53:307][211]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MakeHimFall
-
-[2017.09.15-08.36.53:307][211]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2017.09.15-08.36.53:307][211]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
-
-[2017.09.15-08.36.53:307][211]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
-
-[2017.09.15-08.36.53:307][211]LogTemp:Display: BranchPath = JMAX-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = JMAX-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Impossible de trouver une partie du chemin d'acc?s 'C:\Users\Jean-Maxime\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display:    ? System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display:    ? System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display:    ? System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display:    ? iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.09.15-08.36.53:337][213]LogTemp:Display:    ? iPhonePackager.Program.Main(String[] args)
-
-[2017.09.15-08.37.42:952][175]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.37.42:963][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.37.42:963][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.37.42:964][175]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:37:42 AM)
-[2017.09.15-08.37.42:964][175]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.37.42:967][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
-[2017.09.15-08.37.42:968][175]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.37.42:968][175]LogPlayLevel: PIE: World Init took: (0.000792s)
-[2017.09.15-08.37.42:968][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003488s)
-[2017.09.15-08.37.42:986][175]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.37.42:999][175]LogInit: FAudioDevice initialized.
-[2017.09.15-08.37.43:048][175]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.37.43:050][175]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.37.43
-[2017.09.15-08.37.43:050][175]LogWorld: Bringing up level for play took: 0.001189
-[2017.09.15-08.37.43:059][175]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.26
-[2017.09.15-08.37.43:060][175]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:37:43 AM)
-[2017.09.15-08.37.43:060][175]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.37.43:063][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002704s)
-[2017.09.15-08.37.43:064][175]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.37.43:065][175]LogPlayLevel: PIE: World Init took: (0.001447s)
-[2017.09.15-08.37.43:065][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.004415s)
-[2017.09.15-08.37.43:128][175]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.37.43:131][175]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.37.43
-[2017.09.15-08.37.43:131][175]LogWorld: Bringing up level for play took: 0.001668
-[2017.09.15-08.37.43:138][175]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.34
-[2017.09.15-08.37.43:153][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.38.06:546][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.38.06:636][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.39.15:511][505]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.39.16:154][536]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.39.16:165][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.39.16:165][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.39.16:166][536]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:39:16 AM)
-[2017.09.15-08.39.16:166][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.39.16:169][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002298s)
-[2017.09.15-08.39.16:170][536]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.39.16:170][536]LogPlayLevel: PIE: World Init took: (0.000910s)
-[2017.09.15-08.39.16:170][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003450s)
-[2017.09.15-08.39.16:189][536]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.39.16:202][536]LogInit: FAudioDevice initialized.
-[2017.09.15-08.39.16:249][536]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.39.16:252][536]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.39.16
-[2017.09.15-08.39.16:252][536]LogWorld: Bringing up level for play took: 0.001205
-[2017.09.15-08.39.16:260][536]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.539
-[2017.09.15-08.39.16:261][536]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:39:16 AM)
-[2017.09.15-08.39.16:261][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.39.16:264][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002248s)
-[2017.09.15-08.39.16:264][536]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.39.16:264][536]LogPlayLevel: PIE: World Init took: (0.000883s)
-[2017.09.15-08.39.16:265][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003353s)
-[2017.09.15-08.39.16:331][536]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.39.16:334][536]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.39.16
-[2017.09.15-08.39.16:334][536]LogWorld: Bringing up level for play took: 0.001185
-[2017.09.15-08.39.16:342][536]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.457
-[2017.09.15-08.39.16:359][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.39.17:244][584]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.18:146][638]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.18:580][664]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.19:047][692]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.19:330][709]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.19:631][727]LogBlueprintUserMessages: [BP_TowerMaster_C_0] true
-[2017.09.15-08.39.20:648][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.39.20:764][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.39.23:394][939]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.39.23:850][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.39.23:881][958]LogSavePackage: Save=25.84ms
-[2017.09.15-08.39.23:881][958]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster6A65091A447B0F46DC7A2E8DDB95285E.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.39.23:883][958]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.39.38:241][806]LogSlate: Took 0.015151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.09.15-08.39.41:675][  8]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.39.45:676][235]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.39.46:143][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.39.46:171][254]LogSavePackage: Save=24.95ms
-[2017.09.15-08.39.46:171][254]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMasterFA9498754B6ED3E0A44CAFBA3E4DCAD8.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.39.46:173][254]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.40.00:569][102]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.40.01:071][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.40.01:100][123]LogSavePackage: Save=25.54ms
-[2017.09.15-08.40.01:100][123]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMasterA8D8988E43D82EC9DD0047B3ACDF8ED2.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.40.01:102][123]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.40.08:996][596]Cmd: DELETE
-[2017.09.15-08.40.08:996][596]Cmd: ACTOR DELETE
-[2017.09.15-08.40.08:997][596]LogEditorActor: Deleted Actor: TriggerBox
-[2017.09.15-08.40.09:017][596]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2017.09.15-08.40.10:046][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.09.15-08.40.10:176][657]LogSavePackage: Save=109.19ms
-[2017.09.15-08.40.10:176][657]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_1596582E049DE574303715CA618F05E60.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
-[2017.09.15-08.40.10:178][657]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
-[2017.09.15-08.40.10:756][691]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.09.15-08.40.13:710][863]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:104832).
-[2017.09.15-08.40.28:164][726]LogRenderer: Reallocating scene render targets to support 964x540 NumSamples 1 (Frame:105687).
-[2017.09.15-08.41.07:118][ 46]BlueprintLog: New page: Compile BP_TowerMaster
-[2017.09.15-08.41.07:842][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-08.41.07:870][ 80]LogSavePackage: Save=24.64ms
-[2017.09.15-08.41.07:870][ 80]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMaster4793BE4541D3CECBB4D93F9A834F284A.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-08.41.07:872][ 80]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-08.41.11:089][273]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.41.11:099][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.41.11:099][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.41.11:101][273]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:41:11 AM)
-[2017.09.15-08.41.11:101][273]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.41.11:103][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002283s)
-[2017.09.15-08.41.11:104][273]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.41.11:104][273]LogPlayLevel: PIE: World Init took: (0.000887s)
-[2017.09.15-08.41.11:104][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003374s)
-[2017.09.15-08.41.11:122][273]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.41.11:134][273]LogInit: FAudioDevice initialized.
-[2017.09.15-08.41.11:180][273]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.41.11:182][273]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.41.11
-[2017.09.15-08.41.11:182][273]LogWorld: Bringing up level for play took: 0.001007
-[2017.09.15-08.41.11:189][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 0.39
-[2017.09.15-08.41.11:191][273]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:41:11 AM)
-[2017.09.15-08.41.11:191][273]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.41.11:193][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001971s)
-[2017.09.15-08.41.11:193][273]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.41.11:194][273]LogPlayLevel: PIE: World Init took: (0.000957s)
-[2017.09.15-08.41.11:194][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003288s)
-[2017.09.15-08.41.11:262][273]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.41.11:264][273]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.41.11
-[2017.09.15-08.41.11:264][273]LogWorld: Bringing up level for play took: 0.001022
-[2017.09.15-08.41.11:272][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 0.473
-[2017.09.15-08.41.11:288][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.41.13:518][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.41.13:609][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.45.56:230][351]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.09.15-08.45.56:243][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.45.56:243][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.15-08.45.56:245][351]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:45:56 AM)
-[2017.09.15-08.45.56:245][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
-[2017.09.15-08.45.56:248][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002819s)
-[2017.09.15-08.45.56:249][351]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.45.56:249][351]LogPlayLevel: PIE: World Init took: (0.001164s)
-[2017.09.15-08.45.56:249][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.004240s)
-[2017.09.15-08.45.56:267][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.15-08.45.56:281][351]LogInit: FAudioDevice initialized.
-[2017.09.15-08.45.56:326][351]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.45.56:328][351]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.45.56
-[2017.09.15-08.45.56:328][351]LogWorld: Bringing up level for play took: 0.001473
-[2017.09.15-08.45.56:336][351]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.463
-[2017.09.15-08.45.56:339][351]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 12:45:56 AM)
-[2017.09.15-08.45.56:339][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_1
-[2017.09.15-08.45.56:341][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002216s)
-[2017.09.15-08.45.56:342][351]LogAIModule: Creating AISystem for world Level_1
-[2017.09.15-08.45.56:342][351]LogPlayLevel: PIE: World Init took: (0.000827s)
-[2017.09.15-08.45.56:342][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_2_Level_1.Level_1 (0.003249s)
-[2017.09.15-08.45.56:408][351]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.15-08.45.56:410][351]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-04.45.56
-[2017.09.15-08.45.56:411][351]LogWorld: Bringing up level for play took: 0.001326
-[2017.09.15-08.45.56:418][351]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_2_Level_1 -0.38
-[2017.09.15-08.45.56:434][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.49.13:247][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-08.49.13:339][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.09.15-09.12.30:574][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_TowerMaster" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset" SILENT=true
-[2017.09.15-09.12.30:604][678]LogSavePackage: Save=25.44ms
-[2017.09.15-09.12.30:604][678]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TowerMasterA7D9A7E441479335D972A9ABA6D1C2FD.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset'
-[2017.09.15-09.12.30:605][678]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_TowerMaster.uasset
-[2017.09.15-09.12.40:520][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.09.15-09.12.40:658][120]LogSavePackage: Save=116.18ms
-[2017.09.15-09.12.40:658][120]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_1B2C29CEF4EA4D1C8C123339A710DC7AE.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
-[2017.09.15-09.12.40:659][120]LogSavePackage:Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
-[2017.09.15-09.12.49:781][654]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.15-09.12.49:989][655]Cmd: QUIT_EDITOR
-[2017.09.15-09.12.50:836][655]LogExit: Preparing to exit.
-[2017.09.15-09.12.51:948][655]LogExit: Editor shut down
-[2017.09.15-09.12.51:949][655]LogExit: Transaction tracking system shut down
-[2017.09.15-09.12.52:093][655]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.15-09.12.52:094][655]LogExit: Object subsystem successfully closed.
-[2017.09.15-09.12.52:118][655]LogD3D11RHI: Shutdown
-[2017.09.15-09.12.52:118][655]LogD3D11RHI: CleanupD3DDevice
-[2017.09.15-09.12.52:179][655]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.09.15-09.12.52:205][655]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.09.15-09.12.52:206][655]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.09.15-09.12.52:212][655]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' was aborted.
-[2017.09.15-09.12.52:212][655]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/JeanMaxime/Collections/' was aborted.
-[2017.09.15-09.12.52:212][655]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' was aborted.
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.09.15-09.12.52:212][655]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.09.15-09.12.52:213][655]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.09.15-09.12.53:155][655]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.09.15-09.12.53:156][655]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.09.15-09.12.53:210][655]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.09.15-09.12.53:219][655]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.09.15-09.12.53:220][655]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.09.15-09.12.53:348][655]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.09.15-09.12.53:349][655]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.09.15-09.12.53:350][655]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.09.15-09.12.53:350][655]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.09.15-09.12.53:350][655]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.09.15-09.12.53:351][655]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.09.15-09.12.53:352][655]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.09.15-09.12.53:352][655]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.09.15-09.12.53:352][655]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.09.15-09.12.53:352][655]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.09.15-09.12.53:453][655]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.09.15-09.12.53:553][655]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.09.15-09.12.53:557][655]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.09.15-09.12.53:680][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.15-09.12.53:680][655]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' was aborted.
-[2017.09.15-09.12.53:680][655]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.15-09.12.53:680][655]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.09.15-09.12.53:684][655]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.09.15-09.12.53:754][655]LogDerivedDataCache: Shutdown
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.09.15-09.12.53:754][655]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.09.15-09.12.53:755][655]LogOnline:Display: Unloading online subsystem: NULL
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.09.15-09.12.53:755][655]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.09.15-09.12.53:755][655]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.09.15-09.12.53:755][655]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69EBCDBF-4CF8-852A-7316-51BB934457AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=813752124354e19d5db43da2575d523d%7Cb08348a7138a48b4a524bb2d648592d7%7Ca23590b9-0628-4d38-a4a7-d0c72dd4835d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.15-09.12.53:755][655]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69EBCDBF-4CF8-852A-7316-51BB934457AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=813752124354e19d5db43da2575d523d%7Cb08348a7138a48b4a524bb2d648592d7%7Ca23590b9-0628-4d38-a4a7-d0c72dd4835d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.15-09.12.53:777][655]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.09.15-09.12.53:779][655]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.09.15-09.12.53:779][655]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.09.15-09.12.53:780][655]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.09.15-09.12.53:780][655]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.09.15-09.12.53:780][655]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.15-09.12.53:792][655]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.15-09.12.53:794][655]LogExit: Exiting.
-[2017.09.15-09.12.53:805][655]Log file closed, 09/15/17 05:12:53
+[2017.09.15-10.06.04:386][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.15-10.06.04:386][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.15-10.06.04:401][  0]LogInit: Computer: DESKTOP-HS2CRRA
+[2017.09.15-10.06.04:401][  0]LogInit: User: PierreOlivier
+[2017.09.15-10.06.04:401][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.15-10.06.04:401][  0]LogInit: High frequency timer resolution =2.249997 MHz
+[2017.09.15-10.06.04:401][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.15-10.06.04:401][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.15-10.06.04:402][  0]LogMemory: Process Physical Memory: 278.18 MB used, 278.18 MB peak
+[2017.09.15-10.06.04:402][  0]LogMemory: Process Virtual Memory: 274.01 MB used, 274.01 MB peak
+[2017.09.15-10.06.04:402][  0]LogMemory: Physical Memory: 4610.25 MB used,  3450.11 MB free, 8060.36 MB total
+[2017.09.15-10.06.04:402][  0]LogMemory: Virtual Memory: 668.43 MB used,  3450.11 MB free, 134217728.00 MB total
+[2017.09.15-10.06.04:540][  0]LogInit: Using OS detected language (fr-FR).
+[2017.09.15-10.06.04:540][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.09.15-10.06.04:544][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.09.15-10.06.04:544][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.09.15-10.06.05:310][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.15-10.06.06:030][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.09.15-10.06.06:030][  0]LogD3D11RHI:       2019/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.15-10.06.06:038][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.09.15-10.06.06:038][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.15-10.06.06:039][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.15-10.06.06:039][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.15-10.06.06:039][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.15-10.06.06:046][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.15-10.06.06:046][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.09.15-10.06.06:046][  0]LogWindows: EnumDisplayDevices:
+[2017.09.15-10.06.06:046][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.09.15-10.06.06:046][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.15-10.06.06:046][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.15-10.06.06:047][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.15-10.06.06:047][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.09.15-10.06.06:047][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.15-10.06.06:047][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.15-10.06.06:047][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.15-10.06.06:733][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.15-10.06.06:778][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.15-10.06.06:778][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Intermediate/Shaders/WorkingDirectory/7608/).
+[2017.09.15-10.06.06:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pierre Olivier/AppData/Local/Temp/UnrealShaderWorkingDir/0430A7BE4D93B6F27E2063B96A8C03AC/'.
+[2017.09.15-10.06.06:779][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.15-10.06.07:744][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.15-10.06.07:790][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.15-10.06.07:832][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.15-10.06.07:874][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.15-10.06.07:919][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.15-10.06.07:965][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.15-10.06.08:009][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.15-10.06.08:052][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.15-10.06.08:089][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.15-10.06.08:132][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.15-10.06.08:176][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.15-10.06.08:217][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.15-10.06.08:261][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.15-10.06.08:304][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.15-10.06.08:348][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.15-10.06.08:434][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.15-10.06.08:434][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.15-10.06.08:464][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.15-10.06.08:543][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.15-10.06.08:569][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.15-10.06.08:612][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.15-10.06.08:654][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.15-10.06.08:697][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.15-10.06.08:738][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.15-10.06.08:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.15-10.06.09:116][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Pierre Olivier/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pierre Olivier/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.15-10.06.09:244][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.15-10.06.09:262][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.15-10.06.09:274][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pierre Olivier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.15-10.06.09:287][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.15-10.06.09:287][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.15-10.06.09:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.15-10.06.09:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.15-10.06.09:595][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.09.15-10.06.09:721][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.15-10.06.09:882][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.15-10.06.10:143][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.15-10.06.10:174][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.15-10.06.10:174][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.15-10.06.10:174][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.15-10.06.10:174][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.15-10.06.10:174][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.15-10.06.10:543][  0]LogNetVersion: MakeHimFall , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490375989)
+[2017.09.15-10.06.10:723][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.022616 seconds
+[2017.09.15-10.06.10:730][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.15-10.06.10:730][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.15-10.06.10:730][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.15-10.06.10:775][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.15-10.06.13:131][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.15-10.06.13:165][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.15-10.06.13:679][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.15-10.06.14:021][  0]SourceControl: Source control is disabled
+[2017.09.15-10.06.14:021][  0]SourceControl: Source control is disabled
+[2017.09.15-10.06.14:059][  0]SourceControl: Source control is disabled
+[2017.09.15-10.06.14:094][  0]SourceControl: Source control is disabled
+[2017.09.15-10.06.14:537][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.15-10.06.14:721][  0]LogOcInput: OculusInput pre-init called
+[2017.09.15-10.06.14:932][  0]LogEngine: Initializing Engine...
+[2017.09.15-10.06.14:934][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2017.09.15-10.06.15:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.15-10.06.15:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.15-10.06.15:310][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.15-10.06.15:318][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.06.15:353][  0]LogInit: FAudioDevice initialized.
+[2017.09.15-10.06.15:546][  0]LogDerivedDataCache: Saved boot cache 0.19s 93MB C:/Users/Pierre Olivier/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.15-10.06.15:562][  0]LogInit: Texture streaming: Enabled
+[2017.09.15-10.06.15:647][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.15-10.06.15:814][  0]LogInit: Transaction tracking system initialized
+[2017.09.15-10.06.16:049][  0]BlueprintLog: New page: Editor Load
+[2017.09.15-10.06.16:721][  0]LocalizationService: Localization service is disabled
+[2017.09.15-10.06.17:262][  0]LogConsoleResponse: Display: 
+[2017.09.15-10.06.17:441][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.15-10.06.17:441][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.15-10.06.17:441][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.15-10.06.18:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.01s
+[2017.09.15-10.06.18:265][  0]SourceControl: Source control is disabled
+[2017.09.15-10.06.18:265][  0]Cmd: MAP LOAD FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.15-10.06.18:266][  0]LightingResults: New page: Lighting Build
+[2017.09.15-10.06.18:298][  0]MapCheck: New page: Map Check
+[2017.09.15-10.06.18:298][  0]LightingResults: New page: Lighting Build
+[2017.09.15-10.06.18:642][  0]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.06.18:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.15-10.06.18:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.15-10.06.18:709][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.945ms to complete.
+[2017.09.15-10.06.18:709][  0]LogFileHelpers: Loading map 'Level_1' took 0.444
+[2017.09.15-10.06.18:857][  0]LogCollectionManager: Loaded 0 collections in 0.000897 seconds
+[2017.09.15-10.06.18:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' took 0.01s
+[2017.09.15-10.06.18:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/PierreOlivier/Collections/' took 0.01s
+[2017.09.15-10.06.18:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' took 0.01s
+[2017.09.15-10.06.18:935][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.15-10.06.18:947][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2386 classes and 500 folders.
+[2017.09.15-10.06.18:996][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.15-10.06.19:034][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.15-10.06.19:069][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.15-10.06.19:146][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.15-10.06.19:151][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.15-10.06.19:154][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.15-10.06.19:304][  0]LogRenderer: Reallocating scene render targets to support 1544x628 Format 10 NumSamples 1 (Frame:1).
+[2017.09.15-10.06.19:529][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.15-10.06.19:529][  0]LogLoad: (Engine Initialization) Total time: 16.57 seconds
+[2017.09.15-10.06.19:529][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.15-10.06.19:529][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.15-10.06.19:529][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.15-10.06.19:902][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.15-10.06.19:936][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-10.06.20:203][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.32s
+[2017.09.15-10.06.20:209][  1]LogAssetRegistry: Asset discovery search completed in 10.6353 seconds
+[2017.09.15-10.06.20:211][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.15-10.06.20:211][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.09.15-10.06.20:872][  3]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-10.07.02:301][984]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-10.07.23:577][143]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.09.15-10.07.24:317][143]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.15-10.07.27:041][272]LogSlate: Took 0.288992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.15-10.08.06:123][308]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.15-10.10.49:613][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Traps/BP_TrapPunch" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset" SILENT=true
+[2017.09.15-10.10.49:643][956]LogSavePackage: Save=23.39ms
+[2017.09.15-10.10.49:643][956]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TrapPunchDFEFD2464744CDDDB4108B90211C7167.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset'
+[2017.09.15-10.10.49:649][956]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset
+[2017.09.15-10.12.35:716][222]LogSlate: Took 0.025123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.15-10.14.33:612][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Traps/BP_TrapPunch" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset" SILENT=true
+[2017.09.15-10.14.33:651][190]LogSavePackage: Save=23.10ms
+[2017.09.15-10.14.33:651][190]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TrapPunch932D8B4144A8EF6937F20B98D5371DDF.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset'
+[2017.09.15-10.14.33:654][190]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset
+[2017.09.15-10.15.24:787][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sprites/Sprite_Jumper" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Assets/Sprites/Sprite_Jumper.uasset" SILENT=true
+[2017.09.15-10.15.24:816][186]LogSavePackage: Save=13.24ms
+[2017.09.15-10.15.24:816][186]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Sprite_Jumper4603236A40E784617BD699B552CCFD74.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Assets/Sprites/Sprite_Jumper.uasset'
+[2017.09.15-10.15.24:823][186]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/Assets/Sprites/Sprite_Jumper.uasset
+[2017.09.15-10.16.12:778][992]Cmd: MODE GRID=0
+[2017.09.15-10.16.23:832][651]Cmd: MODE GRID=1
+[2017.09.15-10.16.26:161][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_Jumper" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset" SILENT=true
+[2017.09.15-10.16.26:225][789]LogSavePackage: Save=44.10ms
+[2017.09.15-10.16.26:225][789]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Jumper73A49A0545D9328F4BA6ACA3F1FD32AA.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
+[2017.09.15-10.16.26:228][789]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
+[2017.09.15-10.17.22:337][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_Jumper" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset" SILENT=true
+[2017.09.15-10.17.22:394][ 34]LogSavePackage: Save=46.05ms
+[2017.09.15-10.17.22:394][ 34]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_JumperC27EB34A49B5FE778E312CA2C8E3F744.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
+[2017.09.15-10.17.22:396][ 34]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
+[2017.09.15-10.17.28:146][376]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.15-10.17.28:188][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.28:188][376]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.15-10.17.28:193][376]LogPlayLevel: [PlayLevel] Compiling BP_Jumper before play...
+[2017.09.15-10.17.28:390][376]LogPlayLevel: [PlayLevel] Compiling BP_TrapPunch before play...
+[2017.09.15-10.17.28:599][376]LogPlayLevel: PlayLevel: Blueprint regeneration took 410 ms (2 blueprints)
+[2017.09.15-10.17.28:600][376]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:17:28 PM)
+[2017.09.15-10.17.28:604][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.09.15-10.17.28:608][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003264s)
+[2017.09.15-10.17.28:609][376]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.17.28:609][376]LogPlayLevel: PIE: World Init took: (0.001583s)
+[2017.09.15-10.17.28:610][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.005277s)
+[2017.09.15-10.17.28:631][376]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.17.28:661][376]LogInit: FAudioDevice initialized.
+[2017.09.15-10.17.28:707][376]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.15-10.17.28:710][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.17.28
+[2017.09.15-10.17.28:710][376]LogWorld: Bringing up level for play took: 0.001318
+[2017.09.15-10.17.28:745][376]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.15-10.17.28:747][376]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.377
+[2017.09.15-10.17.28:747][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.32:085][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.32:120][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.34:506][679]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.15-10.17.34:530][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.34:530][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-10.17.34:530][679]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:17:34 PM)
+[2017.09.15-10.17.34:532][679]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.09.15-10.17.34:534][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002366s)
+[2017.09.15-10.17.34:535][679]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.17.34:535][679]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2017.09.15-10.17.34:535][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.003770s)
+[2017.09.15-10.17.34:562][679]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.17.34:596][679]LogInit: FAudioDevice initialized.
+[2017.09.15-10.17.34:629][679]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.15-10.17.34:631][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.17.34
+[2017.09.15-10.17.34:631][679]LogWorld: Bringing up level for play took: 0.001156
+[2017.09.15-10.17.34:633][679]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.491
+[2017.09.15-10.17.34:633][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.41:775][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.41:809][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.45:726][326]LogSavePackage: Save=71.25ms
+[2017.09.15-10.17.45:726][326]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/UEDPCLevel_14D49957A4AD5955A75C834B920B2C213.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/UEDPCLevel_1.umap'
+[2017.09.15-10.17.45:728][326]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/UEDPCLevel_1.umap
+[2017.09.15-10.17.45:735][326]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.09.15-10.17.46:799][383]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2017.09.15-10.17.46:974][383]LogSavePackage: Save=63.12ms
+[2017.09.15-10.17.46:975][383]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/UEDPCLevel_1C4C0EA0446B7708587EBCEAAC35915FD.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/UEDPCLevel_1.umap'
+[2017.09.15-10.17.46:976][383]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/Autosaves/Game/Maps/UEDPCLevel_1.umap
+[2017.09.15-10.17.46:983][383]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.09.15-10.17.48:846][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.48:846][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-10.17.48:846][484]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:17:48 PM)
+[2017.09.15-10.17.48:847][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.09.15-10.17.48:849][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002318s)
+[2017.09.15-10.17.48:850][484]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.17.48:851][484]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2017.09.15-10.17.48:851][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.003974s)
+[2017.09.15-10.17.48:874][484]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.17.48:903][484]LogInit: FAudioDevice initialized.
+[2017.09.15-10.17.48:945][484]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.15-10.17.48:947][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.17.48
+[2017.09.15-10.17.48:947][484]LogWorld: Bringing up level for play took: 0.001355
+[2017.09.15-10.17.48:953][484]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.171
+[2017.09.15-10.17.48:953][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.48:983][484]LogRenderer: Reallocating scene render targets to support 1544x756 Format 10 NumSamples 1 (Frame:1).
+[2017.09.15-10.17.50:964][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.51:034][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.55:824][878]LogEditorViewport: Clicking on Actor (LMB): BP_Background_C (BP_Background)
+[2017.09.15-10.17.57:033][946]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.15-10.17.57:057][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.57:058][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-10.17.57:058][946]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:17:57 PM)
+[2017.09.15-10.17.57:059][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.09.15-10.17.57:061][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002525s)
+[2017.09.15-10.17.57:062][946]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.17.57:062][946]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.09.15-10.17.57:063][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.003724s)
+[2017.09.15-10.17.57:085][946]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.17.57:114][946]LogInit: FAudioDevice initialized.
+[2017.09.15-10.17.57:159][946]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.15-10.17.57:162][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.17.57
+[2017.09.15-10.17.57:162][946]LogWorld: Bringing up level for play took: 0.001225
+[2017.09.15-10.17.57:168][946]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.044
+[2017.09.15-10.17.57:168][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.58:763][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.17.58:856][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.18.10:211][711]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.15-10.18.10:232][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.18.10:232][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-10.18.10:233][711]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:18:10 PM)
+[2017.09.15-10.18.10:234][711]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_1
+[2017.09.15-10.18.10:237][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002503s)
+[2017.09.15-10.18.10:237][711]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.18.10:238][711]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2017.09.15-10.18.10:238][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_1_Level_1.Level_1 (0.003945s)
+[2017.09.15-10.18.10:260][711]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-10.18.10:290][711]LogInit: FAudioDevice initialized.
+[2017.09.15-10.18.10:330][711]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.15-10.18.10:333][711]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.18.10
+[2017.09.15-10.18.10:333][711]LogWorld: Bringing up level for play took: 0.001425
+[2017.09.15-10.18.10:334][711]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.15-10.18.10:335][711]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.09.15-10.18.10:335][711]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.15-10.18.10:335][711]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.09.15-10.18.10:337][711]LogInit: WinSock: I am DESKTOP-HS2CRRA (192.168.15.1:0)
+[2017.09.15-10.18.10:337][711]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.15-10.18.10:337][711]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.09.15-10.18.10:343][711]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Level_1 -0.781
+[2017.09.15-10.18.10:344][711]PIE: New page: PIE session: Level_1 (Sep 15, 2017, 2:18:10 PM)
+[2017.09.15-10.18.10:399][711]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.09.15-10.18.10:399][711]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.15-10.18.10:400][711]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.09.15-10.18.10:400][711]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.09.15-10.18.10:400][711]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.09.15-10.18.10:401][711]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.15-10.18.10:401][711]LogNet: Game client on port 7777, rate 10000
+[2017.09.15-10.18.10:408][711]PIE: Play in editor start time for /Engine/Maps/Entry -0.715
+[2017.09.15-10.18.10:422][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.18.10:424][711]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54610
+[2017.09.15-10.18.10:424][711]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 192209046060155010240188137237157121196084075052036077045193
+[2017.09.15-10.18.10:450][711]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 192209046060155010240188137237157121196084075052036077045193
+[2017.09.15-10.18.10:539][712]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54610
+[2017.09.15-10.18.10:539][712]LogHandshake: SendChallengeAck. InCookie: 192209046060155010240188137237157121196084075052036077045193
+[2017.09.15-10.18.10:539][712]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54610
+[2017.09.15-10.18.10:539][712]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.15-10.18.10:539][712]LogNet: NotifyAcceptedConnection: Name: Level_1, TimeStamp: 09/15/17 12:18:10, [UNetConnection] RemoteAddr: 127.0.0.1:54610, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.15-10.18.10:539][712]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54610, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.15-10.18.10:540][712]LogNetVersion: MakeHimFall 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1351580797)
+[2017.09.15-10.18.10:540][712]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.09.15-10.18.10:565][713]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Level_1.Level_1: Accepted
+[2017.09.15-10.18.10:565][713]LogNet: Remote platform little endian=1
+[2017.09.15-10.18.10:565][713]LogNet: This platform little endian=1
+[2017.09.15-10.18.10:583][714]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.09.15-10.18.10:584][714]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Level_1, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
+[2017.09.15-10.18.10:585][714]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Level_1?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
+[2017.09.15-10.18.10:614][714]Cmd: MEM
+[2017.09.15-10.18.10:636][714]LogMemory: Platform Memory Stats for Windows
+[2017.09.15-10.18.10:636][714]LogMemory: Process Physical Memory: 1452.63 MB used, 1565.20 MB peak
+[2017.09.15-10.18.10:636][714]LogMemory: Process Virtual Memory: 2187.75 MB used, 2281.68 MB peak
+[2017.09.15-10.18.10:636][714]LogMemory: Physical Memory: 5454.59 MB used,  2605.77 MB free, 8060.36 MB total
+[2017.09.15-10.18.10:636][714]LogMemory: Virtual Memory: 3111.24 MB used,  2605.77 MB free, 134217728.00 MB total
+[2017.09.15-10.18.10:636][714]LogMemory: 
+[2017.09.15-10.18.10:636][714]Allocator Stats for TBB: (not implemented)
+[2017.09.15-10.18.10:641][714]LogAIModule: Creating AISystem for world Level_1
+[2017.09.15-10.18.10:641][714]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.15-10.18.10:645][714]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_1.Level_1 up for play (max tick rate 60) at 2017.09.15-12.18.10
+[2017.09.15-10.18.10:645][714]LogWorld: Bringing up level for play took: 0.001154
+[2017.09.15-10.18.10:645][714]LogLoad: Took 0.060169 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_1)
+[2017.09.15-10.18.10:665][715]LogNet: Client netspeed is 10000
+[2017.09.15-10.18.10:665][715]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.09.15-10.18.10:667][715]LogNet: Join succeeded: 261
+[2017.09.15-10.18.22:441][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.18.22:565][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.09.15-10.18.22:589][341]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54610, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.09.15-10.18.22:589][341]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54610, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.09.15-10.18.22
+[2017.09.15-10.18.22:589][341]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54610, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.09.15-10.18.22:589][341]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.09.15-10.18.22:589][341]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.09.15-10.18.22
+[2017.09.15-10.18.22:589][341]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.09.15-10.18.22:595][341]LogExit: GameNetDriver None shut down
+[2017.09.15-10.18.22:595][341]LogExit: GameNetDriver None shut down
+[2017.09.15-10.18.59:607][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_Jumper" FILE="C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset" SILENT=true
+[2017.09.15-10.18.59:666][411]LogSavePackage: Save=48.69ms
+[2017.09.15-10.18.59:666][411]LogSavePackage: Moving 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Jumper8247820040E63AB0F69771B4DCB46BAB.tmp' to 'C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
+[2017.09.15-10.18.59:670][411]LogSavePackage: Display: Finished SavePackage C:/Users/Pierre Olivier/Documents/GitHub/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
+[2017.09.15-10.19.17:500][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
