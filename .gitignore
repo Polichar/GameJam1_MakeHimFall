@@ -78,3 +78,4 @@ DerivedDataCache/*
 *.bin
 MakeHimFall/Saved/AutoScreenshot.png
 *.bin
+*.log
