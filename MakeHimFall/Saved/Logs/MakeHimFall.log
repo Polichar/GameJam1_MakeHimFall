@@ -1,12 +1,12 @@
-﻿Log file open, 09/19/17 09:37:45
+﻿Log file open, 09/19/17 04:13:38
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: MakeHimFall
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1519202462) SRandInit(-1519202462).
+LogInit: Display: RandInit(1522870783) SRandInit(1522870783).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.183447
+LogStats: Stats thread started at 0.182360
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,573 +103,168 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.19-07.37.46:065][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.19-07.37.46:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.19-07.37.46:078][  0]LogInit: Computer: ACARTES-PC
-[2017.09.19-07.37.46:078][  0]LogInit: User: Acartes
-[2017.09.19-07.37.46:078][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.19-07.37.46:078][  0]LogInit: High frequency timer resolution =2.338445 MHz
-[2017.09.19-07.37.46:078][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.19-07.37.46:078][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-07.37.46:078][  0]LogMemory: Process Physical Memory: 279.21 MB used, 279.21 MB peak
-[2017.09.19-07.37.46:078][  0]LogMemory: Process Virtual Memory: 286.21 MB used, 286.21 MB peak
-[2017.09.19-07.37.46:078][  0]LogMemory: Physical Memory: 5375.60 MB used,  2747.95 MB free, 8123.55 MB total
-[2017.09.19-07.37.46:078][  0]LogMemory: Virtual Memory: 681.04 MB used,  2747.95 MB free, 134217728.00 MB total
-[2017.09.19-07.37.46:270][  0]LogInit: Using OS detected language (en-US).
-[2017.09.19-07.37.46:270][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.19-07.37.46:274][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.19-07.37.47:062][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.19-07.37.47:071][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7570M' (Feature Level 11_0)
-[2017.09.19-07.37.47:071][  0]LogD3D11RHI:       1004/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.09.19-07.37.47:072][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.19-07.37.47:072][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.19-07.37.47:072][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.19-07.37.47:078][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.19-07.37.47:078][  0]LogD3D11RHI:     GPU DeviceId: 0x6841 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.19-07.37.47:078][  0]LogWindows: EnumDisplayDevices:
-[2017.09.19-07.37.47:078][  0]LogWindows:    0. 'AMD Radeon HD 7570M' (P:1 D:1)
-[2017.09.19-07.37.47:079][  0]LogWindows:    1. 'AMD Radeon HD 7570M' (P:0 D:0)
-[2017.09.19-07.37.47:079][  0]LogWindows:    2. 'AMD Radeon HD 7570M' (P:0 D:0)
-[2017.09.19-07.37.47:079][  0]LogWindows:    3. 'AMD Radeon HD 7570M' (P:0 D:0)
-[2017.09.19-07.37.47:079][  0]LogWindows:    4. 'AMD Radeon HD 7570M' (P:0 D:0)
-[2017.09.19-07.37.47:079][  0]LogWindows:    5. 'AMD Radeon HD 7570M' (P:0 D:0)
-[2017.09.19-07.37.47:080][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.09.19-07.37.47:080][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7570M
-[2017.09.19-07.37.47:080][  0]LogD3D11RHI:   Driver Version: 15.201.1301.0 (internal:15.201.1301.0, unified:15.201.1301.0)
-[2017.09.19-07.37.47:080][  0]LogD3D11RHI:      Driver Date: 8-19-2015
-[2017.09.19-07.37.47:080][  0]LogRHI: Texture pool is 702 MB (70% of 1004 MB)
-[2017.09.19-07.37.47:103][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
-[2017.09.19-07.37.47:110][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.19-07.37.47:121][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.09.19-07.37.47:122][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Intermediate/Shaders/WorkingDirectory/2636/).
-[2017.09.19-07.37.47:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Acartes/AppData/Local/Temp/UnrealShaderWorkingDir/9E6B6D1D46242DFCB1F713811F2174C1/'.
-[2017.09.19-07.37.47:122][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.19-07.37.48:187][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.19-07.37.48:250][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.19-07.37.48:322][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.19-07.37.48:384][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.19-07.37.48:456][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.19-07.37.48:531][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.19-07.37.48:603][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.19-07.37.48:680][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.19-07.37.48:748][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.19-07.37.48:812][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.19-07.37.48:878][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.19-07.37.48:955][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.19-07.37.49:031][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.19-07.37.49:094][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.19-07.37.49:161][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.19-07.37.49:283][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.19-07.37.49:283][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.19-07.37.49:331][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.19-07.37.49:449][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.19-07.37.49:492][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.19-07.37.49:555][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.19-07.37.49:623][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.19-07.37.49:690][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.19-07.37.49:755][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.19-07.37.49:755][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.19-07.37.50:389][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Acartes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Acartes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.19-07.37.50:488][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.19-07.37.50:511][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.19-07.37.50:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Acartes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.19-07.37.50:535][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.19-07.37.50:535][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.19-07.37.50:536][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.19-07.37.50:536][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.19-07.37.50:884][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
-[2017.09.19-07.37.51:032][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.19-07.37.51:495][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.19-07.37.51:547][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.19-07.37.51:547][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.19-07.37.51:547][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.19-07.37.51:547][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.19-07.37.51:547][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.19-07.37.51:549][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.19-07.37.52:093][  0]LogNetVersion: MakeHimFall , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490375989)
-[2017.09.19-07.37.52:355][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049469 seconds
-[2017.09.19-07.37.52:363][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.19-07.37.52:363][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.19-07.37.52:363][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.19-07.37.52:454][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.19-07.37.55:841][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.19-07.37.55:887][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.19-07.37.56:686][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.19-07.37.57:212][  0]SourceControl: Source control is disabled
-[2017.09.19-07.37.57:212][  0]SourceControl: Source control is disabled
-[2017.09.19-07.37.57:273][  0]SourceControl: Source control is disabled
-[2017.09.19-07.37.57:336][  0]SourceControl: Source control is disabled
-[2017.09.19-07.37.58:102][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.19-07.37.58:416][  0]LogOcInput: OculusInput pre-init called
-[2017.09.19-07.37.58:733][  0]LogEngine: Initializing Engine...
-[2017.09.19-07.37.58:735][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.19-07.37.58:986][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.19-07.37.58:986][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.19-07.37.59:162][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.19-07.37.59:169][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.19-07.37.59:194][  0]LogInit: FAudioDevice initialized.
-[2017.09.19-07.37.59:278][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Acartes/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.19-07.37.59:295][  0]LogInit: Texture streaming: Enabled
-[2017.09.19-07.37.59:461][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.19-07.37.59:736][  0]LogInit: Transaction tracking system initialized
-[2017.09.19-07.38.00:146][  0]BlueprintLog: New page: Editor Load
-[2017.09.19-07.38.01:376][  0]LocalizationService: Localization service is disabled
-[2017.09.19-07.38.02:544][  0]LogConsoleResponse: Display: 
-[2017.09.19-07.38.02:754][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.19-07.38.02:754][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.19-07.38.02:754][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.19-07.38.03:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.01s
-[2017.09.19-07.38.05:184][  0]SourceControl: Source control is disabled
-[2017.09.19-07.38.05:184][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.19-07.38.05:192][  0]LightingResults: New page: Lighting Build
-[2017.09.19-07.38.05:276][  0]MapCheck: New page: Map Check
-[2017.09.19-07.38.05:277][  0]LightingResults: New page: Lighting Build
-[2017.09.19-07.38.06:231][  0]LogAIModule: Creating AISystem for world Level_1
-[2017.09.19-07.38.06:247][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.19-07.38.06:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.19-07.38.06:421][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.564ms to complete.
-[2017.09.19-07.38.06:421][  0]LogFileHelpers: Loading map 'Level_1' took 1.237
-[2017.09.19-07.38.06:486][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.19-07.38.06:691][  0]LogCollectionManager: Loaded 0 collections in 0.001958 seconds
-[2017.09.19-07.38.06:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' took 0.01s
-[2017.09.19-07.38.06:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/Acartes/Collections/' took 0.01s
-[2017.09.19-07.38.06:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' took 0.01s
-[2017.09.19-07.38.06:811][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.09.19-07.38.06:828][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2386 classes and 500 folders.
-[2017.09.19-07.38.06:956][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.09.19-07.38.07:401][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.09.19-07.38.07:462][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.09.19-07.38.07:572][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.19-07.38.07:574][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.19-07.38.07:586][  0]LogSlate: Took 0.005868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.19-07.38.07:770][  0]LogRenderer: Reallocating scene render targets to support 1000x588 Format 9 NumSamples 1 (Frame:1).
-[2017.09.19-07.38.08:132][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.09.19-07.38.08:132][  0]LogLoad: (Engine Initialization) Total time: 24.04 seconds
-[2017.09.19-07.38.08:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.19-07.38.08:132][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.19-07.38.08:132][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.19-07.38.08:173][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.09.19-07.38.08:207][  0]LogSlate: Took 0.005046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.19-07.38.08:217][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.06s
-[2017.09.19-07.38.08:229][  1]LogAssetRegistry: Asset discovery search completed in 17.3676 seconds
-[2017.09.19-07.38.08:232][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.19-07.38.08:232][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2017.09.19-07.38.39:989][601]LogEditorViewport: Clicking on Actor (LMB): BP_BackgroundTest_C (BP_Background)
-[2017.09.19-07.38.44:492][  5]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.19-07.38.44:660][  5]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-07.38.44:698][  5]Cmd: MAP LOAD FILE="../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.19-07.38.44:698][  5]LightingResults: New page: Lighting Build
-[2017.09.19-07.38.44:699][  5]LoadErrors: New page: Loading map: Level_Proto_1.umap
-[2017.09.19-07.38.44:700][  5]MapCheck: New page: Map Check
-[2017.09.19-07.38.44:700][  5]LightingResults: New page: Lighting Build
-[2017.09.19-07.38.44:797][  5]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.19-07.38.44:877][  5]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.19-07.38.44:957][  5]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.155ms to complete.
-[2017.09.19-07.38.44:958][  5]LogFileHelpers: Loading map 'Level_Proto_1' took 0.261
-[2017.09.19-07.38.46:431][166]LogEditorViewport: Clicking on Actor (LMB): Background_Sprite_Blueprint_C (Background_Sprite_Blueprint)
-[2017.09.19-07.38.47:274][234]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plateformes_Sprite_7)
-[2017.09.19-07.41.47:126][505]LogRenderer: Reallocating scene render targets to support 1492x828 Format 9 NumSamples 1 (Frame:44).
-[2017.09.19-07.41.47:266][506]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 9 NumSamples 1 (Frame:47).
-[2017.09.19-07.41.51:809][874]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (eau_Sprite_0)
-[2017.09.19-07.41.52:888][985]LogEditorViewport: Clicking Background
-[2017.09.19-07.46.44:018][975]LogEditorViewport: Clicking on Actor (LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter2)
-[2017.09.19-07.53.49:422][ 80]LogEditorViewport: Clicking on Actor (LMB): BP_TrapFloor_C (BP_TrapFloor)
-[2017.09.19-07.53.50:326][164]LogEditorViewport: Clicking on Actor (LMB): Background_Sprite_Blueprint_C (Background_Sprite_Blueprint)
-[2017.09.19-07.54.12:991][858]Cmd: SELECT NONE
-[2017.09.19-07.56.24:122][139]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tombe1_Sprite_0)
-[2017.09.19-07.57.20:410][376]LogEditorViewport: Clicking on Actor (LMB): BP_TrapFloor_C (BP_TrapFloor)
-[2017.09.19-07.57.21:213][456]Cmd: DELETE
-[2017.09.19-07.57.21:213][456]Cmd: ACTOR DELETE
-[2017.09.19-07.57.21:214][456]LogEditorActor: Deleted Actor: BP_TrapFloor_C
-[2017.09.19-07.57.21:224][456]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.09.19-07.57.22:338][584]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plateformes_Sprite_1)
-[2017.09.19-07.57.50:842][ 55]Cmd: DELETE
-[2017.09.19-07.57.50:842][ 55]Cmd: ACTOR DELETE
-[2017.09.19-07.57.50:843][ 55]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2017.09.19-07.57.50:853][ 55]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.09.19-07.57.58:126][499]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plateformes_Sprite_4)
-[2017.09.19-07.57.59:020][581]Cmd: DELETE
-[2017.09.19-07.57.59:020][581]Cmd: ACTOR DELETE
-[2017.09.19-07.57.59:021][581]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2017.09.19-07.57.59:031][581]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.09.19-07.58.07:257][ 67]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plateformes_Sprite_1)
-[2017.09.19-07.58.08:014][144]Cmd: DELETE
-[2017.09.19-07.58.08:014][144]Cmd: ACTOR DELETE
-[2017.09.19-07.58.08:014][144]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2017.09.19-07.58.08:024][144]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.09.19-07.58.08:625][206]LogEditorViewport: Clicking on Actor (LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter2)
-[2017.09.19-07.58.23:123][109]LogSavePackage: Save=123.99ms
-[2017.09.19-07.58.23:123][109]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_Proto_10790DD8D45A036059B08D2ACA8B28AFB.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap'
-[2017.09.19-07.58.23:126][109]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap
-[2017.09.19-07.58.23:188][109]LogFileHelpers: Saving map 'Level_Proto_1' took 0.310
-[2017.09.19-07.58.24:234][223]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.19-07.58.24:286][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-07.58.24:286][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.19-07.58.24:287][223]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 11:58:24 AM)
-[2017.09.19-07.58.24:291][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-07.58.24:295][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004361s)
-[2017.09.19-07.58.24:296][223]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-07.58.24:296][223]LogPlayLevel: PIE: World Init took: (0.000724s)
-[2017.09.19-07.58.24:296][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.005380s)
-[2017.09.19-07.58.24:309][223]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.19-07.58.24:324][223]LogInit: FAudioDevice initialized.
-[2017.09.19-07.58.24:382][223]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-07.58.24:387][223]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-09.58.24
-[2017.09.19-07.58.24:387][223]LogWorld: Bringing up level for play took: 0.003439
-[2017.09.19-07.58.24:438][223]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2017.09.19-07.58.24:445][223]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Level_Proto_1 -0.704
-[2017.09.19-07.58.24:447][223]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 11:58:24 AM)
-[2017.09.19-07.58.24:448][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_Proto_1
-[2017.09.19-07.58.24:453][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004632s)
-[2017.09.19-07.58.24:453][223]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-07.58.24:453][223]LogPlayLevel: PIE: World Init took: (0.000784s)
-[2017.09.19-07.58.24:454][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 (0.005715s)
-[2017.09.19-07.58.24:509][223]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-07.58.24:513][223]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-09.58.24
-[2017.09.19-07.58.24:513][223]LogWorld: Bringing up level for play took: 0.003330
-[2017.09.19-07.58.24:520][223]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Level_Proto_1 -0.629
-[2017.09.19-07.58.24:531][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-07.58.27:391][331]LogNet: Browse: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-07.58.27:413][331]LogLoad: LoadMap: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-07.58.27:425][331]Cmd: MEM
-[2017.09.19-07.58.27:434][331]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-07.58.27:434][331]LogMemory: Process Physical Memory: 1208.61 MB used, 1208.61 MB peak
-[2017.09.19-07.58.27:434][331]LogMemory: Process Virtual Memory: 1790.23 MB used, 1813.80 MB peak
-[2017.09.19-07.58.27:434][331]LogMemory: Physical Memory: 5455.31 MB used,  2668.24 MB free, 8123.55 MB total
-[2017.09.19-07.58.27:434][331]LogMemory: Virtual Memory: 2505.60 MB used,  2668.24 MB free, 134217728.00 MB total
-[2017.09.19-07.58.27:434][331]LogMemory: 
-[2017.09.19-07.58.27:434][331]Allocator Stats for TBB: (not implemented)
-[2017.09.19-07.58.27:434][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-07.58.27:439][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004261s)
-[2017.09.19-07.58.27:439][331]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-07.58.27:439][331]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2017.09.19-07.58.27:439][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.005205s)
-[2017.09.19-07.58.27:439][331]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-07.58.27:440][331]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-07.58.27:440][331]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2017.09.19-07.58.27:440][331]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-07.58.27:440][331]LogInit: WinSock: Socket queue 131072 / 131072
-[2017.09.19-07.58.27:441][331]LogInit: WinSock: I am Acartes-PC (172.21.171.250:0)
-[2017.09.19-07.58.27:442][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-07.58.27:442][331]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2017.09.19-07.58.27:445][331]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-09.58.27
-[2017.09.19-07.58.27:445][331]LogWorld: Bringing up level for play took: 0.003076
-[2017.09.19-07.58.27:447][331]LogLoad: Took 0.035118 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-07.58.29:851][431]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
-[2017.09.19-07.58.29:851][431]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-07.58.29:851][431]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2017.09.19-07.58.29:851][431]LogTemp: Display: ParseSettings for PendingNetDriver
-[2017.09.19-07.58.29:851][431]LogInit: WinSock: Socket queue 32768 / 32768
-[2017.09.19-07.58.29:852][431]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-07.58.29:852][431]LogNet: Game client on port 7777, rate 10000
-[2017.09.19-07.58.29:876][432]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50940
-[2017.09.19-07.58.29:876][432]LogHandshake: SendConnectChallenge. Timestamp: 2.507471, Cookie: 076028027102153086176198210013210213158091195181008251100095
-[2017.09.19-07.58.29:877][432]LogHandshake: SendChallengeResponse. Timestamp: 2.507471, Cookie: 076028027102153086176198210013210213158091195181008251100095
-[2017.09.19-07.58.29:897][433]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50940
-[2017.09.19-07.58.29:897][433]LogHandshake: SendChallengeAck. InCookie: 076028027102153086176198210013210213158091195181008251100095
-[2017.09.19-07.58.29:897][433]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50940
-[2017.09.19-07.58.29:897][433]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-07.58.29:897][433]LogNet: NotifyAcceptedConnection: Name: Level_Proto_1, TimeStamp: 09/19/17 09:58:29, [UNetConnection] RemoteAddr: 127.0.0.1:50940, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-07.58.29:897][433]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50940, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-07.58.29:898][433]LogNetVersion: MakeHimFall 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1351580797)
-[2017.09.19-07.58.29:898][433]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
-[2017.09.19-07.58.29:919][434]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1: Accepted
-[2017.09.19-07.58.29:919][434]LogNet: Remote platform little endian=1
-[2017.09.19-07.58.29:919][434]LogNet: This platform little endian=1
-[2017.09.19-07.58.29:945][435]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
-[2017.09.19-07.58.29:945][435]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Level_Proto_1, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
-[2017.09.19-07.58.29:970][435]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Level_Proto_1?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
-[2017.09.19-07.58.29:982][435]Cmd: MEM
-[2017.09.19-07.58.29:990][435]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-07.58.29:990][435]LogMemory: Process Physical Memory: 1210.57 MB used, 1210.57 MB peak
-[2017.09.19-07.58.29:990][435]LogMemory: Process Virtual Memory: 1790.28 MB used, 1846.60 MB peak
-[2017.09.19-07.58.29:990][435]LogMemory: Physical Memory: 5450.38 MB used,  2673.18 MB free, 8123.55 MB total
-[2017.09.19-07.58.29:991][435]LogMemory: Virtual Memory: 2506.02 MB used,  2673.18 MB free, 134217728.00 MB total
-[2017.09.19-07.58.29:991][435]LogMemory: 
-[2017.09.19-07.58.29:991][435]Allocator Stats for TBB: (not implemented)
-[2017.09.19-07.58.29:995][435]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-07.58.29:996][435]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-07.58.29:999][435]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-09.58.29
-[2017.09.19-07.58.29:999][435]LogWorld: Bringing up level for play took: 0.002822
-[2017.09.19-07.58.30:000][435]LogLoad: Took 0.029996 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-07.58.30:022][436]LogNet: Client netspeed is 10000
-[2017.09.19-07.58.30:022][436]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
-[2017.09.19-07.58.30:024][436]LogNet: Join succeeded: 259
-[2017.09.19-07.58.32:282][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-07.58.32:431][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-07.58.32:440][532]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50940, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-07.58.32:440][532]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50940, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 3, Time: 2017.09.19-07.58.32
-[2017.09.19-07.58.32:440][532]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50940, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-07.58.32:440][532]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-07.58.32:440][532]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 3, Time: 2017.09.19-07.58.32
-[2017.09.19-07.58.32:440][532]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-07.58.32:444][532]LogExit: GameNetDriver None shut down
-[2017.09.19-07.58.32:444][532]LogExit: GameNetDriver None shut down
-[2017.09.19-07.58.34:143][713]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plateformes_Sprite_16)
-[2017.09.19-08.00.22:077][680]LogEditorViewport: Clicking on Actor (LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter)
-[2017.09.19-08.01.13:671][ 98]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_16)
-[2017.09.19-08.01.15:036][201]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter2)
-[2017.09.19-08.01.16:664][370]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_4)
-[2017.09.19-08.01.23:677][130]EditorErrors: New page: Actor attachment
-[2017.09.19-08.01.24:985][272]Cmd: TRANSACTION UNDO
-[2017.09.19-08.01.24:985][272]LogEditorTransaction: Undo Attach actors
-[2017.09.19-08.01.25:007][272]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.19-08.01.41:968][105]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_5)
-[2017.09.19-08.01.42:845][194]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_0)
-[2017.09.19-08.01.44:857][394]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_6)
-[2017.09.19-08.01.46:577][574]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_3)
-[2017.09.19-08.01.48:037][719]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_4)
-[2017.09.19-08.01.49:388][856]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_16)
-[2017.09.19-08.01.50:371][949]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter2)
-[2017.09.19-08.01.52:943][204]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter)
-[2017.09.19-08.02.12:892][902]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Tombe1_Sprite_0)
-[2017.09.19-08.02.13:814][986]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_9)
-[2017.09.19-08.02.15:257][140]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_7)
-[2017.09.19-08.02.17:442][307]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapSupportShooter_C (BP_TrapSupportShooter3)
-[2017.09.19-08.02.18:778][424]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_8)
-[2017.09.19-08.02.19:743][521]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapFloor_C (BP_TrapFloor2)
-[2017.09.19-08.02.20:529][592]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Plateformes_Sprite_2)
-[2017.09.19-08.02.21:726][697]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_TrapPunch_C (BP_TrapPunch2)
-[2017.09.19-08.04.40:989][736]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
-[2017.09.19-08.04.42:010][736]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.19-08.04.42:089][736]LogSlate: Took 0.006022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.19-08.04.42:237][737]LogSlate: Took 0.006337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.19-08.05.38:346][192]LogEditorTransaction: Undo Modify Component(s)
-[2017.09.19-08.05.51:303][506]LogEditorTransaction: Undo Modify Component(s)
-[2017.09.19-08.06.09:071][917]LogEditorTransaction: Undo Modify Component(s)
-[2017.09.19-08.06.19:158][168]BlueprintLog: New page: Compile BP_Jumper
-[2017.09.19-08.06.24:749][542]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.19-08.06.24:794][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.06.24:795][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.19-08.06.24:797][542]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 12:06:24 PM)
-[2017.09.19-08.06.24:797][542]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-08.06.24:802][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004917s)
-[2017.09.19-08.06.24:803][542]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.06.24:803][542]LogPlayLevel: PIE: World Init took: (0.000773s)
-[2017.09.19-08.06.24:803][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.005986s)
-[2017.09.19-08.06.24:823][542]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.19-08.06.24:836][542]LogInit: FAudioDevice initialized.
-[2017.09.19-08.06.24:880][542]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.06.24:884][542]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.06.24
-[2017.09.19-08.06.24:884][542]LogWorld: Bringing up level for play took: 0.003258
-[2017.09.19-08.06.24:890][542]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Level_Proto_1 -0.259
-[2017.09.19-08.06.24:892][542]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 12:06:24 PM)
-[2017.09.19-08.06.24:893][542]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_Proto_1
-[2017.09.19-08.06.24:897][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004479s)
-[2017.09.19-08.06.24:898][542]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.06.24:898][542]LogPlayLevel: PIE: World Init took: (0.000783s)
-[2017.09.19-08.06.24:898][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 (0.005549s)
-[2017.09.19-08.06.24:959][542]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.06.24:962][542]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.06.24
-[2017.09.19-08.06.24:963][542]LogWorld: Bringing up level for play took: 0.003141
-[2017.09.19-08.06.24:968][542]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Level_Proto_1 -0.18
-[2017.09.19-08.06.24:978][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.06.29:694][726]LogNet: Browse: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-08.06.29:718][726]LogLoad: LoadMap: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-08.06.29:738][726]Cmd: MEM
-[2017.09.19-08.06.29:752][726]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-08.06.29:752][726]LogMemory: Process Physical Memory: 1439.89 MB used, 1442.70 MB peak
-[2017.09.19-08.06.29:752][726]LogMemory: Process Virtual Memory: 2062.74 MB used, 2067.00 MB peak
-[2017.09.19-08.06.29:752][726]LogMemory: Physical Memory: 5719.06 MB used,  2404.50 MB free, 8123.55 MB total
-[2017.09.19-08.06.29:753][726]LogMemory: Virtual Memory: 2784.21 MB used,  2404.50 MB free, 134217728.00 MB total
-[2017.09.19-08.06.29:753][726]LogMemory: 
-[2017.09.19-08.06.29:753][726]Allocator Stats for TBB: (not implemented)
-[2017.09.19-08.06.29:753][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-08.06.29:757][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004568s)
-[2017.09.19-08.06.29:758][726]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.06.29:758][726]LogPlayLevel: PIE: World Init took: (0.000744s)
-[2017.09.19-08.06.29:758][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.005599s)
-[2017.09.19-08.06.29:758][726]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.06.29:758][726]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.06.29:759][726]LogTemp: Display: ParseSettings for IpNetDriver_2
-[2017.09.19-08.06.29:759][726]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.06.29:759][726]LogInit: WinSock: Socket queue 131072 / 131072
-[2017.09.19-08.06.29:759][726]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.06.29:759][726]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
-[2017.09.19-08.06.29:763][726]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.06.29
-[2017.09.19-08.06.29:763][726]LogWorld: Bringing up level for play took: 0.003191
-[2017.09.19-08.06.29:765][726]LogLoad: Took 0.046974 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-08.06.31:107][782]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
-[2017.09.19-08.06.31:107][782]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.06.31:107][782]LogTemp: Display: ParseSettings for IpNetDriver_3
-[2017.09.19-08.06.31:107][782]LogTemp: Display: ParseSettings for PendingNetDriver
-[2017.09.19-08.06.31:107][782]LogInit: WinSock: Socket queue 32768 / 32768
-[2017.09.19-08.06.31:108][782]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.06.31:108][782]LogNet: Game client on port 7777, rate 10000
-[2017.09.19-08.06.31:131][783]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54118
-[2017.09.19-08.06.31:131][783]LogHandshake: SendConnectChallenge. Timestamp: 1.461744, Cookie: 109039111194048122064040071122229047135079006062020154195137
-[2017.09.19-08.06.31:131][783]LogHandshake: SendChallengeResponse. Timestamp: 1.461744, Cookie: 109039111194048122064040071122229047135079006062020154195137
-[2017.09.19-08.06.31:156][784]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54118
-[2017.09.19-08.06.31:156][784]LogHandshake: SendChallengeAck. InCookie: 109039111194048122064040071122229047135079006062020154195137
-[2017.09.19-08.06.31:156][784]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54118
-[2017.09.19-08.06.31:157][784]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.06.31:157][784]LogNet: NotifyAcceptedConnection: Name: Level_Proto_1, TimeStamp: 09/19/17 10:06:31, [UNetConnection] RemoteAddr: 127.0.0.1:54118, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-08.06.31:157][784]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54118, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-08.06.31:157][784]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
-[2017.09.19-08.06.31:177][785]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1: Accepted
-[2017.09.19-08.06.31:177][785]LogNet: Remote platform little endian=1
-[2017.09.19-08.06.31:177][785]LogNet: This platform little endian=1
-[2017.09.19-08.06.31:210][786]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
-[2017.09.19-08.06.31:211][786]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Level_Proto_1, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
-[2017.09.19-08.06.31:236][786]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Level_Proto_1?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
-[2017.09.19-08.06.31:254][786]Cmd: MEM
-[2017.09.19-08.06.31:269][786]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-08.06.31:269][786]LogMemory: Process Physical Memory: 1439.98 MB used, 1442.70 MB peak
-[2017.09.19-08.06.31:269][786]LogMemory: Process Virtual Memory: 2006.66 MB used, 2119.08 MB peak
-[2017.09.19-08.06.31:269][786]LogMemory: Physical Memory: 5718.98 MB used,  2404.58 MB free, 8123.55 MB total
-[2017.09.19-08.06.31:269][786]LogMemory: Virtual Memory: 2728.21 MB used,  2404.58 MB free, 134217728.00 MB total
-[2017.09.19-08.06.31:269][786]LogMemory: 
-[2017.09.19-08.06.31:269][786]Allocator Stats for TBB: (not implemented)
-[2017.09.19-08.06.31:274][786]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.06.31:275][786]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.06.31:278][786]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.06.31
-[2017.09.19-08.06.31:279][786]LogWorld: Bringing up level for play took: 0.003137
-[2017.09.19-08.06.31:279][786]LogLoad: Took 0.043441 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-08.06.31:299][787]LogNet: Client netspeed is 10000
-[2017.09.19-08.06.31:299][787]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
-[2017.09.19-08.06.31:301][787]LogNet: Join succeeded: 263
-[2017.09.19-08.06.33:466][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.06.33:651][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.06.33:667][876]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54118, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.06.33:667][876]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54118, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 5, Time: 2017.09.19-08.06.33
-[2017.09.19-08.06.33:667][876]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54118, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.06.33:667][876]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.06.33:667][876]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 3, Time: 2017.09.19-08.06.33
-[2017.09.19-08.06.33:667][876]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.06.33:671][876]LogExit: GameNetDriver None shut down
-[2017.09.19-08.06.33:671][876]LogExit: GameNetDriver None shut down
-[2017.09.19-08.07.11:475][609]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.09.19-08.07.12:997][762]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.19-08.07.13:043][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.07.13:043][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.19-08.07.13:046][762]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 12:07:13 PM)
-[2017.09.19-08.07.13:047][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-08.07.13:053][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006349s)
-[2017.09.19-08.07.13:054][762]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.07.13:054][762]LogPlayLevel: PIE: World Init took: (0.000977s)
-[2017.09.19-08.07.13:054][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.007686s)
-[2017.09.19-08.07.13:078][762]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.19-08.07.13:094][762]LogInit: FAudioDevice initialized.
-[2017.09.19-08.07.13:146][762]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.07.13:153][762]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.07.13
-[2017.09.19-08.07.13:154][762]LogWorld: Bringing up level for play took: 0.006682
-[2017.09.19-08.07.13:164][762]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Level_Proto_1 0.015
-[2017.09.19-08.07.13:167][762]PIE: New page: PIE session: Level_Proto_1 (Sep 19, 2017, 12:07:13 PM)
-[2017.09.19-08.07.13:168][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Level_Proto_1
-[2017.09.19-08.07.13:176][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008139s)
-[2017.09.19-08.07.13:177][762]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.07.13:177][762]LogPlayLevel: PIE: World Init took: (0.001145s)
-[2017.09.19-08.07.13:178][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 (0.009747s)
-[2017.09.19-08.07.13:258][762]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.07.13:262][762]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.07.13
-[2017.09.19-08.07.13:263][762]LogWorld: Bringing up level for play took: 0.004202
-[2017.09.19-08.07.13:270][762]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Level_Proto_1 0.122
-[2017.09.19-08.07.13:283][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.07.15:458][837]LogNet: Browse: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-08.07.15:483][837]LogLoad: LoadMap: /Game/Maps/Level_Proto_1?listen
-[2017.09.19-08.07.15:509][837]Cmd: MEM
-[2017.09.19-08.07.15:530][837]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-08.07.15:530][837]LogMemory: Process Physical Memory: 1448.91 MB used, 1448.98 MB peak
-[2017.09.19-08.07.15:530][837]LogMemory: Process Virtual Memory: 2006.80 MB used, 2119.08 MB peak
-[2017.09.19-08.07.15:530][837]LogMemory: Physical Memory: 5722.98 MB used,  2400.57 MB free, 8123.55 MB total
-[2017.09.19-08.07.15:530][837]LogMemory: Virtual Memory: 2728.21 MB used,  2400.57 MB free, 134217728.00 MB total
-[2017.09.19-08.07.15:530][837]LogMemory: 
-[2017.09.19-08.07.15:530][837]Allocator Stats for TBB: (not implemented)
-[2017.09.19-08.07.15:530][837]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Level_Proto_1
-[2017.09.19-08.07.15:536][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006008s)
-[2017.09.19-08.07.15:537][837]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.07.15:537][837]LogPlayLevel: PIE: World Init took: (0.000882s)
-[2017.09.19-08.07.15:537][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Proto_1.Level_Proto_1 to /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 (0.007238s)
-[2017.09.19-08.07.15:537][837]LogLoad: Game class is 'BP_GameModeMHF_C'
-[2017.09.19-08.07.15:537][837]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.07.15:537][837]LogTemp: Display: ParseSettings for IpNetDriver_4
-[2017.09.19-08.07.15:538][837]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.07.15:538][837]LogInit: WinSock: Socket queue 131072 / 131072
-[2017.09.19-08.07.15:538][837]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.07.15:538][837]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
-[2017.09.19-08.07.15:542][837]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.07.15
-[2017.09.19-08.07.15:543][837]LogWorld: Bringing up level for play took: 0.004039
-[2017.09.19-08.07.15:546][837]LogLoad: Took 0.062827 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-08.07.19:628][997]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
-[2017.09.19-08.07.19:629][997]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.07.19:629][997]LogTemp: Display: ParseSettings for IpNetDriver_5
-[2017.09.19-08.07.19:629][997]LogTemp: Display: ParseSettings for PendingNetDriver
-[2017.09.19-08.07.19:629][997]LogInit: WinSock: Socket queue 32768 / 32768
-[2017.09.19-08.07.19:630][997]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.07.19:630][997]LogNet: Game client on port 7777, rate 10000
-[2017.09.19-08.07.19:652][998]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62032
-[2017.09.19-08.07.19:652][998]LogHandshake: SendConnectChallenge. Timestamp: 4.223052, Cookie: 197181183152161220255068205068009038094127118238153015158206
-[2017.09.19-08.07.19:653][998]LogHandshake: SendChallengeResponse. Timestamp: 4.223052, Cookie: 197181183152161220255068205068009038094127118238153015158206
-[2017.09.19-08.07.19:676][999]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62032
-[2017.09.19-08.07.19:676][999]LogHandshake: SendChallengeAck. InCookie: 197181183152161220255068205068009038094127118238153015158206
-[2017.09.19-08.07.19:676][999]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62032
-[2017.09.19-08.07.19:677][999]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.09.19-08.07.19:677][999]LogNet: NotifyAcceptedConnection: Name: Level_Proto_1, TimeStamp: 09/19/17 10:07:19, [UNetConnection] RemoteAddr: 127.0.0.1:62032, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-08.07.19:677][999]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62032, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
-[2017.09.19-08.07.19:678][999]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
-[2017.09.19-08.07.19:702][  0]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Level_Proto_1.Level_Proto_1: Accepted
-[2017.09.19-08.07.19:702][  0]LogNet: Remote platform little endian=1
-[2017.09.19-08.07.19:702][  0]LogNet: This platform little endian=1
-[2017.09.19-08.07.19:729][  1]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
-[2017.09.19-08.07.19:730][  1]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Level_Proto_1, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
-[2017.09.19-08.07.19:752][  1]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Level_Proto_1?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
-[2017.09.19-08.07.19:773][  1]Cmd: MEM
-[2017.09.19-08.07.19:792][  1]LogMemory: Platform Memory Stats for Windows
-[2017.09.19-08.07.19:792][  1]LogMemory: Process Physical Memory: 1452.00 MB used, 1452.53 MB peak
-[2017.09.19-08.07.19:792][  1]LogMemory: Process Virtual Memory: 2009.94 MB used, 2119.08 MB peak
-[2017.09.19-08.07.19:792][  1]LogMemory: Physical Memory: 5723.83 MB used,  2399.72 MB free, 8123.55 MB total
-[2017.09.19-08.07.19:792][  1]LogMemory: Virtual Memory: 2731.33 MB used,  2399.72 MB free, 134217728.00 MB total
-[2017.09.19-08.07.19:792][  1]LogMemory: 
-[2017.09.19-08.07.19:792][  1]Allocator Stats for TBB: (not implemented)
-[2017.09.19-08.07.19:798][  1]LogAIModule: Creating AISystem for world Level_Proto_1
-[2017.09.19-08.07.19:798][  1]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.09.19-08.07.19:802][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Level_Proto_1.Level_Proto_1 up for play (max tick rate 0) at 2017.09.19-10.07.19
-[2017.09.19-08.07.19:803][  1]LogWorld: Bringing up level for play took: 0.003283
-[2017.09.19-08.07.19:803][  1]LogLoad: Took 0.051030 seconds to LoadMap(/Game/Maps/UEDPIE_1_Level_Proto_1)
-[2017.09.19-08.07.19:823][  2]LogNet: Client netspeed is 10000
-[2017.09.19-08.07.19:823][  2]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
-[2017.09.19-08.07.19:825][  2]LogNet: Join succeeded: 267
-[2017.09.19-08.07.32:667][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.07.32:814][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1' with GeneratedClass '/Game/Maps/Level_Proto_1.Level_Proto_C' with ClassGeneratedBy '/Game/Maps/Level_Proto_1.Level_Proto_1:PersistentLevel.Level_Proto_1'
-[2017.09.19-08.07.32:828][519]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62032, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.07.32:828][519]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62032, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 3, Time: 2017.09.19-08.07.32
-[2017.09.19-08.07.32:828][519]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62032, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.07.32:828][519]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.07.32:828][519]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 3, Time: 2017.09.19-08.07.32
-[2017.09.19-08.07.32:828][519]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
-[2017.09.19-08.07.32:832][519]LogExit: GameNetDriver None shut down
-[2017.09.19-08.07.32:832][519]LogExit: GameNetDriver None shut down
-[2017.09.19-08.07.35:223][746]LogEditorViewport: Clicking on Actor (LMB): BP_TrapPunch_C (BP_TrapPunch2)
-[2017.09.19-08.08.00:190][428]LogSavePackage: Save=147.51ms
-[2017.09.19-08.08.00:190][428]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_Proto_130A778A649CB54F0ED55E686EE394B86.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap'
-[2017.09.19-08.08.00:193][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap
-[2017.09.19-08.08.00:261][428]LogFileHelpers: Saving map 'Level_Proto_1' took 0.379
-[2017.09.19-08.08.00:391][428]LogSavePackage: Save=78.67ms
-[2017.09.19-08.08.00:391][428]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Jumper25E0C4AD438D3D0017381E81FB6C9FF5.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
-[2017.09.19-08.08.00:395][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
-[2017.09.19-08.11.25:072][314]LogAIModule: Creating AISystem for world Level_Proto_2
-[2017.09.19-08.11.35:794][953]LogMetaData: Removing '/Game/Maps/NewèLevel_Proto.SKEL_NewèLevel_Proto_C' ref from Metadata '/Game/Maps/Level_Proto_2.PackageMetaData'
-[2017.09.19-08.11.35:794][953]LogMetaData: Removing '/Game/Maps/NewèLevel_Proto.NewèLevel_Proto_C' ref from Metadata '/Game/Maps/Level_Proto_2.PackageMetaData'
-[2017.09.19-08.11.36:033][953]LogSavePackage: Save=120.59ms
-[2017.09.19-08.11.36:033][953]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/NewèLevel_Proto548F8C4544ABB3621F4C58A19625B36A.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/NewèLevel_Proto.umap'
-[2017.09.19-08.11.36:036][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/NewèLevel_Proto.umap
-[2017.09.19-08.11.36:044][953]LogFileHelpers: Saving map 'NewèLevel_Proto' took 0.231
-[2017.09.19-08.11.40:943][235]LogMetaData: Removing '/Game/Maps/New_Level_Proto.New_Level_Proto_C' ref from Metadata '/Game/Maps/NewèLevel_Proto.PackageMetaData'
-[2017.09.19-08.11.40:943][235]LogMetaData: Removing '/Game/Maps/New_Level_Proto.SKEL_New_Level_Proto_C' ref from Metadata '/Game/Maps/NewèLevel_Proto.PackageMetaData'
-[2017.09.19-08.11.41:185][235]LogSavePackage: Save=126.36ms
-[2017.09.19-08.11.41:185][235]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/New_Level_Proto42CDBC9D4C504FCA36A5DEAF1DBEA7B0.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/New_Level_Proto.umap'
-[2017.09.19-08.11.41:187][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/New_Level_Proto.umap
-[2017.09.19-08.11.41:196][235]LogFileHelpers: Saving map 'New_Level_Proto' took 0.239
-[2017.09.19-08.11.44:827][433]LogSavePackage: Save=116.58ms
-[2017.09.19-08.11.44:828][433]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_Proto_1152617684218673C195AB58E017B8BD7.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap'
-[2017.09.19-08.11.44:829][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap
+[2017.09.19-08.13.38:926][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-08.13.38:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.19-08.13.38:934][  0]LogInit: Computer: JMAX-PC
+[2017.09.19-08.13.38:934][  0]LogInit: User: JeanMaxime
+[2017.09.19-08.13.38:934][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.19-08.13.38:934][  0]LogInit: High frequency timer resolution =2.435780 MHz
+[2017.09.19-08.13.38:935][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.19-08.13.38:935][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.19-08.13.38:935][  0]LogMemory: Process Physical Memory: 279.20 MB used, 279.20 MB peak
+[2017.09.19-08.13.38:935][  0]LogMemory: Process Virtual Memory: 286.38 MB used, 286.38 MB peak
+[2017.09.19-08.13.38:935][  0]LogMemory: Physical Memory: 6350.06 MB used,  9916.94 MB free, 16267.00 MB total
+[2017.09.19-08.13.38:935][  0]LogMemory: Virtual Memory: 667.05 MB used,  9916.94 MB free, 134217728.00 MB total
+[2017.09.19-08.13.39:118][  0]LogInit: Using OS detected language (fr-FR).
+[2017.09.19-08.13.39:118][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.09.19-08.13.39:123][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.09.19-08.13.39:123][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.09.19-08.13.39:931][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.19-08.13.40:542][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.09.19-08.13.40:542][  0]LogD3D11RHI:       4065/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.19-08.13.40:549][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.19-08.13.40:549][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.19-08.13.40:550][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.19-08.13.40:550][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.19-08.13.40:550][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.19-08.13.40:556][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.19-08.13.40:556][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.19-08.13.40:556][  0]LogWindows: EnumDisplayDevices:
+[2017.09.19-08.13.40:557][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.09.19-08.13.40:557][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.19-08.13.40:557][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.19-08.13.40:557][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.19-08.13.40:557][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.09.19-08.13.40:557][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.19-08.13.40:557][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.19-08.13.40:557][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.19-08.13.41:130][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.19-08.13.41:170][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.19-08.13.41:170][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/GameJam1_MakeHimFall/MakeHimFall/Intermediate/Shaders/WorkingDirectory/14460/).
+[2017.09.19-08.13.41:171][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jean-Maxime/AppData/Local/Temp/UnrealShaderWorkingDir/743BE4654BF0A161FAE22CB406E9D3C8/'.
+[2017.09.19-08.13.41:171][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.19-08.13.42:185][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.19-08.13.42:251][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.19-08.13.42:317][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.19-08.13.42:384][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.19-08.13.42:454][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.19-08.13.42:522][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.19-08.13.42:590][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.19-08.13.42:659][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.19-08.13.42:722][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.19-08.13.42:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.19-08.13.42:861][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.19-08.13.42:933][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.19-08.13.43:004][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.19-08.13.43:080][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.19-08.13.43:156][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.19-08.13.43:291][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.19-08.13.43:291][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.19-08.13.43:351][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.19-08.13.43:474][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.19-08.13.43:510][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.19-08.13.43:576][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.19-08.13.43:651][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.19-08.13.43:717][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.19-08.13.43:785][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.19-08.13.43:785][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.19-08.13.44:432][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.19-08.13.44:540][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.19-08.13.44:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.19-08.13.44:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.19-08.13.44:584][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.19-08.13.44:585][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.19-08.13.44:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-08.13.44:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-08.13.44:940][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.09.19-08.13.45:072][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-08.13.45:252][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.19-08.13.45:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.19-08.13.45:756][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.19-08.13.45:756][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.19-08.13.45:756][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.19-08.13.45:756][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.19-08.13.45:756][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.19-08.13.46:186][  0]LogNetVersion: MakeHimFall , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490375989)
+[2017.09.19-08.13.46:450][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.022804 seconds
+[2017.09.19-08.13.46:458][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.19-08.13.46:458][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.19-08.13.46:458][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.19-08.13.46:552][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.19-08.13.50:482][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.19-08.13.50:528][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.19-08.13.51:384][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.19-08.13.51:926][  0]SourceControl: Source control is disabled
+[2017.09.19-08.13.51:926][  0]SourceControl: Source control is disabled
+[2017.09.19-08.13.51:994][  0]SourceControl: Source control is disabled
+[2017.09.19-08.13.52:061][  0]SourceControl: Source control is disabled
+[2017.09.19-08.13.52:870][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.19-08.13.53:213][  0]LogOcInput: OculusInput pre-init called
+[2017.09.19-08.13.53:552][  0]LogEngine: Initializing Engine...
+[2017.09.19-08.13.53:554][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.19-08.13.53:787][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.19-08.13.53:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.19-08.13.53:965][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.19-08.13.53:974][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.19-08.13.54:108][  0]LogInit: FAudioDevice initialized.
+[2017.09.19-08.13.54:288][  0]LogDerivedDataCache: Saved boot cache 0.18s 93MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.19-08.13.54:300][  0]LogInit: Texture streaming: Enabled
+[2017.09.19-08.13.54:428][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.19-08.13.54:728][  0]LogInit: Transaction tracking system initialized
+[2017.09.19-08.13.55:153][  0]BlueprintLog: New page: Editor Load
+[2017.09.19-08.13.56:366][  0]LocalizationService: Localization service is disabled
+[2017.09.19-08.13.57:283][  0]LogConsoleResponse: Display: 
+[2017.09.19-08.13.57:500][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.19-08.13.57:500][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.19-08.13.57:500][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.19-08.13.58:198][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.01s
+[2017.09.19-08.13.58:926][  0]SourceControl: Source control is disabled
+[2017.09.19-08.13.58:926][  0]Cmd: MAP LOAD FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.19-08.13.58:927][  0]LightingResults: New page: Lighting Build
+[2017.09.19-08.13.58:985][  0]MapCheck: New page: Map Check
+[2017.09.19-08.13.58:985][  0]LightingResults: New page: Lighting Build
+[2017.09.19-08.13.59:362][  0]LogAIModule: Creating AISystem for world Level_1
+[2017.09.19-08.13.59:371][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.19-08.13.59:387][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.19-08.13.59:505][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.263ms to complete.
+[2017.09.19-08.13.59:505][  0]LogFileHelpers: Loading map 'Level_1' took 0.579
+[2017.09.19-08.13.59:565][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.19-08.13.59:653][  0]LogCollectionManager: Loaded 0 collections in 0.002316 seconds
+[2017.09.19-08.13.59:747][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' took 0.01s
+[2017.09.19-08.13.59:747][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/JeanMaxime/Collections/' took 0.01s
+[2017.09.19-08.13.59:747][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' took 0.01s
+[2017.09.19-08.13.59:747][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.19-08.13.59:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
+[2017.09.19-08.13.59:839][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.19-08.13.59:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.19-08.13.59:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.19-08.13.59:994][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.19-08.13.59:996][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.19-08.14.00:005][  0]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.19-08.14.00:123][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.09.19-08.14.00:317][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.19-08.14.00:318][  0]LogLoad: (Engine Initialization) Total time: 23.39 seconds
+[2017.09.19-08.14.00:318][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.19-08.14.00:318][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.19-08.14.00:318][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.19-08.14.00:367][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.19-08.14.00:385][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.19-08.14.00:392][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.04s
+[2017.09.19-08.14.00:399][  1]LogAssetRegistry: Asset discovery search completed in 15.4812 seconds
+[2017.09.19-08.14.00:401][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.19-08.14.00:401][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2017.09.19-08.15.33:576][495]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.19-08.15.34:841][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.19-08.15.34:937][566]LogSavePackage: Save=73.83ms
+[2017.09.19-08.15.34:937][566]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_190898EEC4067EE711648669DB42BFE93.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap'
+[2017.09.19-08.15.34:938][566]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_1.umap
