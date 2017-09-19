@@ -657,3 +657,19 @@ LogInit: Object subsystem initialized
 [2017.09.19-08.08.00:391][428]LogSavePackage: Save=78.67ms
 [2017.09.19-08.08.00:391][428]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Jumper25E0C4AD438D3D0017381E81FB6C9FF5.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
 [2017.09.19-08.08.00:395][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
+[2017.09.19-08.11.25:072][314]LogAIModule: Creating AISystem for world Level_Proto_2
+[2017.09.19-08.11.35:794][953]LogMetaData: Removing '/Game/Maps/NewèLevel_Proto.SKEL_NewèLevel_Proto_C' ref from Metadata '/Game/Maps/Level_Proto_2.PackageMetaData'
+[2017.09.19-08.11.35:794][953]LogMetaData: Removing '/Game/Maps/NewèLevel_Proto.NewèLevel_Proto_C' ref from Metadata '/Game/Maps/Level_Proto_2.PackageMetaData'
+[2017.09.19-08.11.36:033][953]LogSavePackage: Save=120.59ms
+[2017.09.19-08.11.36:033][953]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/NewèLevel_Proto548F8C4544ABB3621F4C58A19625B36A.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/NewèLevel_Proto.umap'
+[2017.09.19-08.11.36:036][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/NewèLevel_Proto.umap
+[2017.09.19-08.11.36:044][953]LogFileHelpers: Saving map 'NewèLevel_Proto' took 0.231
+[2017.09.19-08.11.40:943][235]LogMetaData: Removing '/Game/Maps/New_Level_Proto.New_Level_Proto_C' ref from Metadata '/Game/Maps/NewèLevel_Proto.PackageMetaData'
+[2017.09.19-08.11.40:943][235]LogMetaData: Removing '/Game/Maps/New_Level_Proto.SKEL_New_Level_Proto_C' ref from Metadata '/Game/Maps/NewèLevel_Proto.PackageMetaData'
+[2017.09.19-08.11.41:185][235]LogSavePackage: Save=126.36ms
+[2017.09.19-08.11.41:185][235]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/New_Level_Proto42CDBC9D4C504FCA36A5DEAF1DBEA7B0.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/New_Level_Proto.umap'
+[2017.09.19-08.11.41:187][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/New_Level_Proto.umap
+[2017.09.19-08.11.41:196][235]LogFileHelpers: Saving map 'New_Level_Proto' took 0.239
+[2017.09.19-08.11.44:827][433]LogSavePackage: Save=116.58ms
+[2017.09.19-08.11.44:828][433]LogSavePackage: Moving '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Saved/Level_Proto_1152617684218673C195AB58E017B8BD7.tmp' to '../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap'
+[2017.09.19-08.11.44:829][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Acartes/Documents/Unreal Projects/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/Level_Proto_1.umap
