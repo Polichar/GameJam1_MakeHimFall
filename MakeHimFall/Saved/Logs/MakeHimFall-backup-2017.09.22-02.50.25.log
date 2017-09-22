@@ -1,0 +1,959 @@
+﻿Log file open, 09/21/17 19:44:15
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MakeHimFall
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(253734038) SRandInit(253734038).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179107
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.21-23.44.15:891][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-23.44.15:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-23.44.15:899][  0]LogInit: Computer: JMAX-PC
+[2017.09.21-23.44.15:899][  0]LogInit: User: JeanMaxime
+[2017.09.21-23.44.15:899][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.21-23.44.15:899][  0]LogInit: High frequency timer resolution =2.435780 MHz
+[2017.09.21-23.44.15:899][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.21-23.44.15:899][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.44.15:899][  0]LogMemory: Process Physical Memory: 279.80 MB used, 279.80 MB peak
+[2017.09.21-23.44.15:899][  0]LogMemory: Process Virtual Memory: 290.51 MB used, 290.51 MB peak
+[2017.09.21-23.44.15:899][  0]LogMemory: Physical Memory: 6677.40 MB used,  9589.61 MB free, 16267.00 MB total
+[2017.09.21-23.44.15:899][  0]LogMemory: Virtual Memory: 671.05 MB used,  9589.61 MB free, 134217728.00 MB total
+[2017.09.21-23.44.16:076][  0]LogInit: Using OS detected language (fr-FR).
+[2017.09.21-23.44.16:077][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.09.21-23.44.16:081][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.09.21-23.44.16:082][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.09.21-23.44.16:833][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-23.44.17:437][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.09.21-23.44.17:437][  0]LogD3D11RHI:       4065/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.21-23.44.17:444][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.21-23.44.17:444][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.21-23.44.17:445][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.21-23.44.17:445][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.21-23.44.17:445][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-23.44.17:451][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-23.44.17:451][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-23.44.17:451][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-23.44.17:451][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.09.21-23.44.17:452][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.21-23.44.17:452][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.21-23.44.17:452][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.21-23.44.17:452][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.09.21-23.44.17:452][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.21-23.44.17:452][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.21-23.44.17:452][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.21-23.44.18:020][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-23.44.18:059][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.21-23.44.18:059][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/GameJam1_MakeHimFall/MakeHimFall/Intermediate/Shaders/WorkingDirectory/18368/).
+[2017.09.21-23.44.18:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jean-Maxime/AppData/Local/Temp/UnrealShaderWorkingDir/7C64167A48B2BBB7787BEAADDA06EC4C/'.
+[2017.09.21-23.44.18:060][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.21-23.44.19:038][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.21-23.44.19:102][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.21-23.44.19:165][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.21-23.44.19:229][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.21-23.44.19:293][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.21-23.44.19:357][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-23.44.19:423][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-23.44.19:485][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-23.44.19:544][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-23.44.19:607][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.21-23.44.19:669][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.21-23.44.19:731][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.21-23.44.19:793][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.21-23.44.19:854][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.21-23.44.19:916][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.21-23.44.20:041][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.21-23.44.20:041][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.21-23.44.20:093][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.21-23.44.20:200][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.21-23.44.20:231][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.21-23.44.20:293][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.21-23.44.20:356][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.21-23.44.20:418][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.21-23.44.20:480][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.21-23.44.20:480][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.21-23.44.21:065][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameJam1_MakeHimFall/MakeHimFall/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-23.44.21:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-23.44.21:182][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-23.44.21:195][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-23.44.21:206][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-23.44.21:206][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-23.44.21:207][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-23.44.21:207][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-23.44.21:516][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.09.21-23.44.21:636][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-23.44.22:103][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-23.44.22:161][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-23.44.22:161][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-23.44.22:161][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.21-23.44.22:161][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.21-23.44.22:161][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.21-23.44.22:162][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.21-23.44.22:675][  0]LogNetVersion: MakeHimFall , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1490375989)
+[2017.09.21-23.44.22:906][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.022056 seconds
+[2017.09.21-23.44.22:913][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.21-23.44.22:913][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.21-23.44.22:913][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-23.44.22:984][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-23.44.26:478][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-23.44.26:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-23.44.27:393][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-23.44.27:935][  0]SourceControl: Source control is disabled
+[2017.09.21-23.44.27:935][  0]SourceControl: Source control is disabled
+[2017.09.21-23.44.28:003][  0]SourceControl: Source control is disabled
+[2017.09.21-23.44.28:068][  0]SourceControl: Source control is disabled
+[2017.09.21-23.44.28:877][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-23.44.29:224][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-23.44.29:561][  0]LogEngine: Initializing Engine...
+[2017.09.21-23.44.29:563][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-23.44.29:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-23.44.29:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-23.44.29:975][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.21-23.44.29:983][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-23.44.30:002][  0]LogInit: FAudioDevice initialized.
+[2017.09.21-23.44.30:181][  0]LogDerivedDataCache: Saved boot cache 0.18s 93MB C:/Users/Jean-Maxime/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-23.44.30:192][  0]LogInit: Texture streaming: Enabled
+[2017.09.21-23.44.30:324][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.21-23.44.30:622][  0]LogInit: Transaction tracking system initialized
+[2017.09.21-23.44.31:048][  0]BlueprintLog: New page: Editor Load
+[2017.09.21-23.44.32:234][  0]LocalizationService: Localization service is disabled
+[2017.09.21-23.44.33:161][  0]LogConsoleResponse: Display: 
+[2017.09.21-23.44.33:380][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.21-23.44.33:380][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.21-23.44.33:381][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.21-23.44.34:085][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.01s
+[2017.09.21-23.44.34:806][  0]SourceControl: Source control is disabled
+[2017.09.21-23.44.34:806][  0]Cmd: MAP LOAD FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/LD_Slow_Him_Down.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.21-23.44.34:806][  0]LightingResults: New page: Lighting Build
+[2017.09.21-23.44.34:863][  0]MapCheck: New page: Map Check
+[2017.09.21-23.44.34:863][  0]LightingResults: New page: Lighting Build
+[2017.09.21-23.44.35:890][  0]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.44.35:923][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.21-23.44.35:939][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.21-23.44.36:070][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131.251ms to complete.
+[2017.09.21-23.44.36:070][  0]LogFileHelpers: Loading map 'LD_Slow_Him_Down' took 1.264
+[2017.09.21-23.44.36:133][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-23.44.36:221][  0]LogCollectionManager: Loaded 0 collections in 0.002315 seconds
+[2017.09.21-23.44.36:314][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' took 0.01s
+[2017.09.21-23.44.36:314][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/JeanMaxime/Collections/' took 0.01s
+[2017.09.21-23.44.36:314][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' took 0.01s
+[2017.09.21-23.44.36:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.21-23.44.36:324][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2386 classes and 500 folders.
+[2017.09.21-23.44.36:407][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.21-23.44.36:477][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.21-23.44.36:538][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.21-23.44.36:563][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-23.44.36:565][  0]LogSlate: Took 0.000402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.21-23.44.36:572][  0]LogSlate: Took 0.000971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.21-23.44.36:705][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.09.21-23.44.36:904][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.21-23.44.36:904][  0]LogLoad: (Engine Initialization) Total time: 23.02 seconds
+[2017.09.21-23.44.36:904][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.21-23.44.36:904][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.21-23.44.36:904][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.21-23.44.36:953][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.21-23.44.36:971][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-23.44.36:986][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' took 0.05s
+[2017.09.21-23.44.36:998][  1]LogAssetRegistry: Asset discovery search completed in 15.5049 seconds
+[2017.09.21-23.44.37:001][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.21-23.44.37:001][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.09.21-23.44.39:561][152]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-23.44.39:949][152]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.09.21-23.44.40:594][152]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-23.44.40:657][152]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.21-23.44.40:741][153]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.21-23.44.51:723][810]BlueprintLog: New page: Compile BP_Victory
+[2017.09.21-23.44.52:346][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/LevelDesign/BP_Victory" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset" SILENT=true
+[2017.09.21-23.44.52:381][831]LogSavePackage: Save=12.74ms
+[2017.09.21-23.44.52:381][831]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Victory01826A0A4C7DF3E5AA964ABEDF12EDFE.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset'
+[2017.09.21-23.44.52:383][831]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset
+[2017.09.21-23.44.59:970][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.21-23.45.00:812][290]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.21-23.45.00:853][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.00:853][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-23.45.00:855][290]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:45:00 PM)
+[2017.09.21-23.45.00:856][290]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down
+[2017.09.21-23.45.00:867][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011382s)
+[2017.09.21-23.45.00:867][290]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.00:868][290]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.09.21-23.45.00:868][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down (0.012334s)
+[2017.09.21-23.45.00:890][290]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-23.45.00:901][290]LogInit: FAudioDevice initialized.
+[2017.09.21-23.45.00:969][290]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.45.00:976][290]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.00
+[2017.09.21-23.45.00:977][290]LogWorld: Bringing up level for play took: 0.006187
+[2017.09.21-23.45.01:041][290]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.21-23.45.01:048][290]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_LD_Slow_Him_Down -0.561
+[2017.09.21-23.45.01:051][290]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:45:01 PM)
+[2017.09.21-23.45.01:052][290]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_LD_Slow_Him_Down
+[2017.09.21-23.45.01:064][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011964s)
+[2017.09.21-23.45.01:065][290]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.01:066][290]LogPlayLevel: PIE: World Init took: (0.001686s)
+[2017.09.21-23.45.01:067][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down (0.014627s)
+[2017.09.21-23.45.01:142][290]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.45.01:148][290]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.01
+[2017.09.21-23.45.01:150][290]LogWorld: Bringing up level for play took: 0.007088
+[2017.09.21-23.45.01:159][290]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_LD_Slow_Him_Down -0.451
+[2017.09.21-23.45.01:167][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.01:194][291]LogRenderer: Reallocating scene render targets to support 1540x844 Format 10 NumSamples 1 (Frame:1).
+[2017.09.21-23.45.08:256][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.08:358][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.18:500][256]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-23.45.44:768][827]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.21-23.45.44:797][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.44:797][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-23.45.44:798][827]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:45:44 PM)
+[2017.09.21-23.45.44:799][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down
+[2017.09.21-23.45.44:811][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011696s)
+[2017.09.21-23.45.44:812][827]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.44:812][827]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.09.21-23.45.44:812][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down (0.012685s)
+[2017.09.21-23.45.44:834][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-23.45.44:847][827]LogInit: FAudioDevice initialized.
+[2017.09.21-23.45.44:901][827]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.45.44:907][827]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.44
+[2017.09.21-23.45.44:908][827]LogWorld: Bringing up level for play took: 0.005670
+[2017.09.21-23.45.44:917][827]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_LD_Slow_Him_Down -0.693
+[2017.09.21-23.45.44:919][827]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:45:44 PM)
+[2017.09.21-23.45.44:919][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_LD_Slow_Him_Down
+[2017.09.21-23.45.44:932][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012193s)
+[2017.09.21-23.45.44:932][827]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.44:933][827]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2017.09.21-23.45.44:933][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down (0.013625s)
+[2017.09.21-23.45.45:006][827]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.45.45:012][827]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.45
+[2017.09.21-23.45.45:013][827]LogWorld: Bringing up level for play took: 0.006491
+[2017.09.21-23.45.45:021][827]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_LD_Slow_Him_Down -0.588
+[2017.09.21-23.45.45:035][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.45.47:671][980]LogNet: Browse: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.45.47:679][980]LogLoad: LoadMap: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.45.47:702][980]Cmd: MEM
+[2017.09.21-23.45.47:719][980]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.45.47:719][980]LogMemory: Process Physical Memory: 1494.54 MB used, 1516.98 MB peak
+[2017.09.21-23.45.47:719][980]LogMemory: Process Virtual Memory: 2126.47 MB used, 2135.55 MB peak
+[2017.09.21-23.45.47:719][980]LogMemory: Physical Memory: 7996.09 MB used,  8270.92 MB free, 16267.00 MB total
+[2017.09.21-23.45.47:719][980]LogMemory: Virtual Memory: 3066.54 MB used,  8270.92 MB free, 134217728.00 MB total
+[2017.09.21-23.45.47:719][980]LogMemory: 
+[2017.09.21-23.45.47:719][980]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.45.47:719][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down
+[2017.09.21-23.45.47:731][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011551s)
+[2017.09.21-23.45.47:731][980]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.47:731][980]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.09.21-23.45.47:732][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down (0.012547s)
+[2017.09.21-23.45.47:732][980]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.45.47:732][980]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.45.47:732][980]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.09.21-23.45.47:732][980]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.45.47:733][980]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.09.21-23.45.47:735][980]LogInit: WinSock: I am jmax-pc (192.168.1.38:0)
+[2017.09.21-23.45.47:735][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.45.47:735][980]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.09.21-23.45.47:741][980]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.47
+[2017.09.21-23.45.47:741][980]LogWorld: Bringing up level for play took: 0.005912
+[2017.09.21-23.45.47:744][980]LogLoad: Took 0.065049 seconds to LoadMap(/Game/Maps/UEDPIE_1_LD_Slow_Him_Down)
+[2017.09.21-23.45.50:073][ 99]LogNet: Browse: 127.0.0.1//Game/Maps/LevelMenu
+[2017.09.21-23.45.50:073][ 99]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.45.50:073][ 99]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.09.21-23.45.50:073][ 99]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.09.21-23.45.50:073][ 99]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.09.21-23.45.50:074][ 99]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.45.50:074][ 99]LogNet: Game client on port 7777, rate 10000
+[2017.09.21-23.45.50:089][100]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63761
+[2017.09.21-23.45.50:089][100]LogHandshake: SendConnectChallenge. Timestamp: 2.435594, Cookie: 011084002042117110042162185055027227180188245034014207188180
+[2017.09.21-23.45.50:090][100]LogHandshake: SendChallengeResponse. Timestamp: 2.435594, Cookie: 011084002042117110042162185055027227180188245034014207188180
+[2017.09.21-23.45.50:106][101]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63761
+[2017.09.21-23.45.50:106][101]LogHandshake: SendChallengeAck. InCookie: 011084002042117110042162185055027227180188245034014207188180
+[2017.09.21-23.45.50:106][101]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63761
+[2017.09.21-23.45.50:106][101]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.45.50:106][101]LogNet: NotifyAcceptedConnection: Name: LD_Slow_Him_Down, TimeStamp: 09/21/17 19:45:50, [UNetConnection] RemoteAddr: 127.0.0.1:63761, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.45.50:106][101]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63761, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.45.50:107][101]LogNetVersion: MakeHimFall 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1351580797)
+[2017.09.21-23.45.50:107][101]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.09.21-23.45.50:123][102]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down: Accepted
+[2017.09.21-23.45.50:123][102]LogNet: Remote platform little endian=1
+[2017.09.21-23.45.50:123][102]LogNet: This platform little endian=1
+[2017.09.21-23.45.50:139][103]LogNet: Login request: /Game/Maps/LevelMenu userId: Invalid
+[2017.09.21-23.45.50:140][103]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
+[2017.09.21-23.45.50:140][103]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_LD_Slow_Him_Down?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
+[2017.09.21-23.45.50:162][103]Cmd: MEM
+[2017.09.21-23.45.50:179][103]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.45.50:179][103]LogMemory: Process Physical Memory: 1508.79 MB used, 1516.98 MB peak
+[2017.09.21-23.45.50:179][103]LogMemory: Process Virtual Memory: 2174.03 MB used, 2176.14 MB peak
+[2017.09.21-23.45.50:179][103]LogMemory: Physical Memory: 8003.51 MB used,  8263.49 MB free, 16267.00 MB total
+[2017.09.21-23.45.50:179][103]LogMemory: Virtual Memory: 3114.96 MB used,  8263.49 MB free, 134217728.00 MB total
+[2017.09.21-23.45.50:179][103]LogMemory: 
+[2017.09.21-23.45.50:179][103]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.45.50:191][103]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.45.50:191][103]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.45.50:209][103]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.45.50
+[2017.09.21-23.45.50:210][103]LogWorld: Bringing up level for play took: 0.017549
+[2017.09.21-23.45.50:210][103]LogLoad: Took 0.069966 seconds to LoadMap(/Game/Maps/UEDPIE_1_LD_Slow_Him_Down)
+[2017.09.21-23.45.50:224][104]LogNet: Client netspeed is 10000
+[2017.09.21-23.45.50:224][104]LogNet: Join request: /Game/Maps/LevelMenu?SplitscreenCount=1
+[2017.09.21-23.45.50:226][104]LogNet: Join succeeded: 261
+[2017.09.21-23.47.22:103][343]LogNet: Browse: /Game/Maps/LevelMenu
+[2017.09.21-23.47.22:120][343]LogLoad: LoadMap: /Game/Maps/LevelMenu
+[2017.09.21-23.47.22:120][343]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2017.09.21-23.47.22:120][343]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2017.09.21-23.47.22:120][343]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 32, Time: 2017.09.21-23.47.22
+[2017.09.21-23.47.22:120][343]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.47.22:121][343]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2017.09.21-23.47.22:148][343]Cmd: MEM
+[2017.09.21-23.47.22:166][343]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.47.22:166][343]LogMemory: Process Physical Memory: 1503.40 MB used, 1554.56 MB peak
+[2017.09.21-23.47.22:166][343]LogMemory: Process Virtual Memory: 2116.60 MB used, 2187.55 MB peak
+[2017.09.21-23.47.22:166][343]LogMemory: Physical Memory: 7976.42 MB used,  8290.59 MB free, 16267.00 MB total
+[2017.09.21-23.47.22:166][343]LogMemory: Virtual Memory: 3097.46 MB used,  8290.59 MB free, 134217728.00 MB total
+[2017.09.21-23.47.22:166][343]LogMemory: 
+[2017.09.21-23.47.22:166][343]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.47.22:558][343]LogAIModule: Creating AISystem for world LevelMenu
+[2017.09.21-23.47.22:559][343]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.47.22:561][343]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LevelMenu.LevelMenu up for play (max tick rate 60) at 2017.09.21-19.47.22
+[2017.09.21-23.47.22:561][343]LogWorld: Bringing up level for play took: 0.001517
+[2017.09.21-23.47.22:562][343]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.21-23.47.22:564][343]LogLoad: Took 0.443078 seconds to LoadMap(/Game/Maps/LevelMenu)
+[2017.09.21-23.47.22:582][344]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2017.09.21-23.47.22:582][344]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63761, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.47.22:582][344]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63761, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 32, Time: 2017.09.21-23.47.22
+[2017.09.21-23.47.22:583][344]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63761, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.47.32:470][808]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C:ExecuteUbergraph_BP_GameModeMHF'!
+[2017.09.21-23.47.36:755][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.47.36:858][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.47.36:879][  3]LogExit: GameNetDriver None shut down
+[2017.09.21-23.48.35:044][255]BlueprintLog: New page: Compile BP_GameModeMHF
+[2017.09.21-23.48.35:950][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_GameModeMHF" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/BP_GameModeMHF.uasset" SILENT=true
+[2017.09.21-23.48.36:025][285]LogSavePackage: Save=54.20ms
+[2017.09.21-23.48.36:025][285]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_GameModeMHF7EFAB63646850BA1359280B5496C3728.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/BP_GameModeMHF.uasset'
+[2017.09.21-23.48.36:027][285]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/BP_GameModeMHF.uasset
+[2017.09.21-23.48.40:285][526]BlueprintLog: New page: Compile BP_Jumper
+[2017.09.21-23.48.40:401][526]LogBlueprint: Warning: [Compiler BP_Victory] Could not find the function 'VIctory' called from  VIctory
+[2017.09.21-23.48.40:420][526]LogBlueprint: Warning: [Compiler BP_Victory] [0266.53] Compile of BP_Victory successful, but with 1 Warning(s) [in 109 ms] (/Game/BP/LevelDesign/BP_Victory.BP_Victory)
+[2017.09.21-23.48.41:369][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Characters/BP_Jumper" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset" SILENT=true
+[2017.09.21-23.48.41:537][550]LogSavePackage: Save=146.44ms
+[2017.09.21-23.48.41:537][550]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Jumper048A049B4E76E4BD1CE6B8B64DFF2B36.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset'
+[2017.09.21-23.48.41:539][550]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Characters/BP_Jumper.uasset
+[2017.09.21-23.49.24:012][ 40]BlueprintLog: New page: Compile BP_Victory
+[2017.09.21-23.49.24:619][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/LevelDesign/BP_Victory" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset" SILENT=true
+[2017.09.21-23.49.24:655][ 59]LogSavePackage: Save=14.45ms
+[2017.09.21-23.49.24:655][ 59]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_Victory4BF7D66446C119B75EF3439631192693.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset'
+[2017.09.21-23.49.24:657][ 59]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/LevelDesign/BP_Victory.uasset
+[2017.09.21-23.49.26:242][152]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.21-23.49.26:273][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.49.26:273][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-23.49.26:274][152]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:49:26 PM)
+[2017.09.21-23.49.26:276][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down
+[2017.09.21-23.49.26:288][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011970s)
+[2017.09.21-23.49.26:289][152]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.49.26:290][152]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2017.09.21-23.49.26:290][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down (0.013781s)
+[2017.09.21-23.49.26:316][152]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-23.49.26:330][152]LogInit: FAudioDevice initialized.
+[2017.09.21-23.49.26:389][152]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.49.26:396][152]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.49.26
+[2017.09.21-23.49.26:397][152]LogWorld: Bringing up level for play took: 0.007272
+[2017.09.21-23.49.26:406][152]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_LD_Slow_Him_Down 0.796
+[2017.09.21-23.49.26:410][152]PIE: New page: PIE session: LD_Slow_Him_Down (Sep 21, 2017, 3:49:26 PM)
+[2017.09.21-23.49.26:411][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_LD_Slow_Him_Down
+[2017.09.21-23.49.26:424][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012815s)
+[2017.09.21-23.49.26:425][152]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.49.26:426][152]LogPlayLevel: PIE: World Init took: (0.001729s)
+[2017.09.21-23.49.26:426][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down (0.015094s)
+[2017.09.21-23.49.26:516][152]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.49.26:523][152]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.49.26
+[2017.09.21-23.49.26:525][152]LogWorld: Bringing up level for play took: 0.007736
+[2017.09.21-23.49.26:536][152]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_LD_Slow_Him_Down 0.926
+[2017.09.21-23.49.26:554][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.49.28:992][285]LogNet: Browse: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.49.29:008][285]LogLoad: LoadMap: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.49.29:036][285]Cmd: MEM
+[2017.09.21-23.49.29:056][285]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.49.29:056][285]LogMemory: Process Physical Memory: 1831.66 MB used, 1831.67 MB peak
+[2017.09.21-23.49.29:056][285]LogMemory: Process Virtual Memory: 2676.84 MB used, 2676.93 MB peak
+[2017.09.21-23.49.29:056][285]LogMemory: Physical Memory: 8243.34 MB used,  8023.66 MB free, 16267.00 MB total
+[2017.09.21-23.49.29:056][285]LogMemory: Virtual Memory: 3625.11 MB used,  8023.66 MB free, 134217728.00 MB total
+[2017.09.21-23.49.29:056][285]LogMemory: 
+[2017.09.21-23.49.29:056][285]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.49.29:056][285]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down
+[2017.09.21-23.49.29:067][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011369s)
+[2017.09.21-23.49.29:068][285]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.49.29:068][285]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.09.21-23.49.29:069][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down (0.012498s)
+[2017.09.21-23.49.29:069][285]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.49.29:069][285]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.49.29:069][285]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2017.09.21-23.49.29:069][285]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.49.29:069][285]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.09.21-23.49.29:070][285]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.49.29:070][285]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.09.21-23.49.29:077][285]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.49.29
+[2017.09.21-23.49.29:078][285]LogWorld: Bringing up level for play took: 0.007161
+[2017.09.21-23.49.29:080][285]LogLoad: Took 0.072121 seconds to LoadMap(/Game/Maps/UEDPIE_1_LD_Slow_Him_Down)
+[2017.09.21-23.49.31:357][394]LogNet: Browse: 127.0.0.1//Game/Maps/LevelMenu
+[2017.09.21-23.49.31:357][394]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.49.31:357][394]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2017.09.21-23.49.31:357][394]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.09.21-23.49.31:357][394]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.09.21-23.49.31:358][394]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.49.31:358][394]LogNet: Game client on port 7777, rate 10000
+[2017.09.21-23.49.31:373][395]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65501
+[2017.09.21-23.49.31:373][395]LogHandshake: SendConnectChallenge. Timestamp: 2.399002, Cookie: 049186010183168008068083166009233083171108246195047009009119
+[2017.09.21-23.49.31:374][395]LogHandshake: SendChallengeResponse. Timestamp: 2.399002, Cookie: 049186010183168008068083166009233083171108246195047009009119
+[2017.09.21-23.49.31:391][396]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65501
+[2017.09.21-23.49.31:391][396]LogHandshake: SendChallengeAck. InCookie: 049186010183168008068083166009233083171108246195047009009119
+[2017.09.21-23.49.31:391][396]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65501
+[2017.09.21-23.49.31:391][396]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.49.31:391][396]LogNet: NotifyAcceptedConnection: Name: LD_Slow_Him_Down, TimeStamp: 09/21/17 19:49:31, [UNetConnection] RemoteAddr: 127.0.0.1:65501, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.49.31:391][396]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65501, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.49.31:392][396]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.09.21-23.49.31:408][397]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down: Accepted
+[2017.09.21-23.49.31:408][397]LogNet: Remote platform little endian=1
+[2017.09.21-23.49.31:408][397]LogNet: This platform little endian=1
+[2017.09.21-23.49.31:426][398]LogNet: Login request: /Game/Maps/LevelMenu userId: Invalid
+[2017.09.21-23.49.31:427][398]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_LD_Slow_Him_Down, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
+[2017.09.21-23.49.31:442][398]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_LD_Slow_Him_Down?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
+[2017.09.21-23.49.31:471][398]Cmd: MEM
+[2017.09.21-23.49.31:492][398]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.49.31:492][398]LogMemory: Process Physical Memory: 1846.74 MB used, 1846.77 MB peak
+[2017.09.21-23.49.31:492][398]LogMemory: Process Virtual Memory: 2730.15 MB used, 2731.75 MB peak
+[2017.09.21-23.49.31:492][398]LogMemory: Physical Memory: 8261.59 MB used,  8005.41 MB free, 16267.00 MB total
+[2017.09.21-23.49.31:492][398]LogMemory: Virtual Memory: 3673.79 MB used,  8005.41 MB free, 134217728.00 MB total
+[2017.09.21-23.49.31:492][398]LogMemory: 
+[2017.09.21-23.49.31:492][398]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.49.31:505][398]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.49.31:505][398]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.49.31:517][398]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.49.31
+[2017.09.21-23.49.31:518][398]LogWorld: Bringing up level for play took: 0.011795
+[2017.09.21-23.49.31:518][398]LogLoad: Took 0.076063 seconds to LoadMap(/Game/Maps/UEDPIE_1_LD_Slow_Him_Down)
+[2017.09.21-23.49.31:539][399]LogNet: Client netspeed is 10000
+[2017.09.21-23.49.31:539][399]LogNet: Join request: /Game/Maps/LevelMenu?SplitscreenCount=1
+[2017.09.21-23.49.31:542][399]LogNet: Join succeeded: 266
+[2017.09.21-23.51.03:794][756]LogNet: Browse: /Game/Maps/LevelMenu
+[2017.09.21-23.51.03:814][756]LogLoad: LoadMap: /Game/Maps/LevelMenu
+[2017.09.21-23.51.03:814][756]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2017.09.21-23.51.03:814][756]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2017.09.21-23.51.03:815][756]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65501, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.03:815][756]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65501, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 32, Time: 2017.09.21-23.51.03
+[2017.09.21-23.51.03:815][756]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65501, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.03:816][756]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2017.09.21-23.51.03:847][756]Cmd: MEM
+[2017.09.21-23.51.03:868][756]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.51.03:868][756]LogMemory: Process Physical Memory: 1869.73 MB used, 1883.59 MB peak
+[2017.09.21-23.51.03:868][756]LogMemory: Process Virtual Memory: 2662.42 MB used, 2762.21 MB peak
+[2017.09.21-23.51.03:868][756]LogMemory: Physical Memory: 8225.61 MB used,  8041.39 MB free, 16267.00 MB total
+[2017.09.21-23.51.03:868][756]LogMemory: Virtual Memory: 3624.54 MB used,  8041.39 MB free, 134217728.00 MB total
+[2017.09.21-23.51.03:868][756]LogMemory: 
+[2017.09.21-23.51.03:868][756]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.51.03:916][756]LogAIModule: Creating AISystem for world LevelMenu
+[2017.09.21-23.51.03:916][756]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.51.03:918][756]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LevelMenu.LevelMenu up for play (max tick rate 60) at 2017.09.21-19.51.03
+[2017.09.21-23.51.03:918][756]LogWorld: Bringing up level for play took: 0.001254
+[2017.09.21-23.51.03:918][756]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.21-23.51.03:920][756]LogLoad: Took 0.106136 seconds to LoadMap(/Game/Maps/LevelMenu)
+[2017.09.21-23.51.03:921][756]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.09.21-23.51.03:921][756]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.09.21-23.51.03:922][756]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2017.09.21-23.51.03:923][756]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 32, Time: 2017.09.21-23.51.03
+[2017.09.21-23.51.03:923][756]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.03:923][756]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.09.21-23.51.03:923][756]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.09.21-23.51.03:923][756]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2017.09.21-23.51.03:941][757]LogNet: Browse: /Game/Maps/LevelMenu?closed
+[2017.09.21-23.51.03:941][757]LogNet: Failed; returning to Entry
+[2017.09.21-23.51.03:955][757]LogLoad: LoadMap: /Game/Maps/LevelMenu?closed
+[2017.09.21-23.51.03:955][757]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2017.09.21-23.51.03:955][757]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2017.09.21-23.51.03:955][757]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2017.09.21-23.51.03:985][757]Cmd: MEM
+[2017.09.21-23.51.04:007][757]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.51.04:007][757]LogMemory: Process Physical Memory: 1885.56 MB used, 1894.26 MB peak
+[2017.09.21-23.51.04:007][757]LogMemory: Process Virtual Memory: 2750.70 MB used, 2762.21 MB peak
+[2017.09.21-23.51.04:007][757]LogMemory: Physical Memory: 8248.41 MB used,  8018.59 MB free, 16267.00 MB total
+[2017.09.21-23.51.04:007][757]LogMemory: Virtual Memory: 3695.11 MB used,  8018.59 MB free, 134217728.00 MB total
+[2017.09.21-23.51.04:007][757]LogMemory: 
+[2017.09.21-23.51.04:007][757]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.51.04:049][757]LogAIModule: Creating AISystem for world LevelMenu
+[2017.09.21-23.51.04:049][757]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.51.04:051][757]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LevelMenu.LevelMenu up for play (max tick rate 60) at 2017.09.21-19.51.04
+[2017.09.21-23.51.04:052][757]LogWorld: Bringing up level for play took: 0.001560
+[2017.09.21-23.51.04:052][757]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.21-23.51.04:054][757]LogLoad: Took 0.099149 seconds to LoadMap(/Game/Maps/LevelMenu)
+[2017.09.21-23.51.08:429][923]LogNet: Browse: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.51.08:452][923]LogLoad: LoadMap: /Game/Maps/LD_Slow_Him_Down?listen
+[2017.09.21-23.51.08:477][923]Cmd: MEM
+[2017.09.21-23.51.08:498][923]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.51.08:498][923]LogMemory: Process Physical Memory: 1863.38 MB used, 1913.55 MB peak
+[2017.09.21-23.51.08:498][923]LogMemory: Process Virtual Memory: 2671.02 MB used, 2777.00 MB peak
+[2017.09.21-23.51.08:498][923]LogMemory: Physical Memory: 8228.77 MB used,  8038.24 MB free, 16267.00 MB total
+[2017.09.21-23.51.08:498][923]LogMemory: Virtual Memory: 3646.48 MB used,  8038.24 MB free, 134217728.00 MB total
+[2017.09.21-23.51.08:499][923]LogMemory: 
+[2017.09.21-23.51.08:499][923]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.51.08:499][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_LD_Slow_Him_Down
+[2017.09.21-23.51.08:510][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011351s)
+[2017.09.21-23.51.08:511][923]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.51.08:511][923]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.09.21-23.51.08:511][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down to /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down (0.012324s)
+[2017.09.21-23.51.08:511][923]LogLoad: Game class is 'BP_GameModeMHF_C'
+[2017.09.21-23.51.08:511][923]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.51.08:511][923]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2017.09.21-23.51.08:511][923]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.51.08:512][923]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.09.21-23.51.08:512][923]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.51.08:512][923]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.09.21-23.51.08:518][923]LogWorld: Bringing World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.51.08
+[2017.09.21-23.51.08:519][923]LogWorld: Bringing up level for play took: 0.006058
+[2017.09.21-23.51.08:522][923]LogLoad: Took 0.070383 seconds to LoadMap(/Game/Maps/UEDPIE_2_LD_Slow_Him_Down)
+[2017.09.21-23.51.10:912][  8]LogNet: Browse: 127.0.0.1//Game/Maps/LevelMenu
+[2017.09.21-23.51.10:912][  8]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.51.10:912][  8]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2017.09.21-23.51.10:912][  8]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.09.21-23.51.10:912][  8]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.09.21-23.51.10:913][  8]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.51.10:913][  8]LogNet: Game client on port 7777, rate 10000
+[2017.09.21-23.51.10:913][  8]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51658
+[2017.09.21-23.51.10:914][  8]LogHandshake: SendConnectChallenge. Timestamp: 2.508153, Cookie: 133159003140222131103201047059157200220126097142214070133255
+[2017.09.21-23.51.10:937][  9]LogHandshake: SendChallengeResponse. Timestamp: 2.508153, Cookie: 133159003140222131103201047059157200220126097142214070133255
+[2017.09.21-23.51.10:937][  9]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51658
+[2017.09.21-23.51.10:937][  9]LogHandshake: SendChallengeAck. InCookie: 133159003140222131103201047059157200220126097142214070133255
+[2017.09.21-23.51.10:937][  9]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51658
+[2017.09.21-23.51.10:937][  9]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.09.21-23.51.10:938][  9]LogNet: NotifyAcceptedConnection: Name: LD_Slow_Him_Down, TimeStamp: 09/21/17 19:51:10, [UNetConnection] RemoteAddr: 127.0.0.1:51658, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.51.10:938][  9]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51658, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.09.21-23.51.10:961][ 10]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.09.21-23.51.10:962][ 10]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_2_LD_Slow_Him_Down.LD_Slow_Him_Down: Accepted
+[2017.09.21-23.51.10:962][ 10]LogNet: Remote platform little endian=1
+[2017.09.21-23.51.10:962][ 10]LogNet: This platform little endian=1
+[2017.09.21-23.51.10:985][ 11]LogNet: Login request: /Game/Maps/LevelMenu userId: Invalid
+[2017.09.21-23.51.11:009][ 12]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_2_LD_Slow_Him_Down, Game: /Game/BP/BP_GameModeMHF.BP_GameModeMHF_C)
+[2017.09.21-23.51.11:033][ 12]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_2_LD_Slow_Him_Down?game=/Game/BP/BP_GameModeMHF.BP_GameModeMHF_C
+[2017.09.21-23.51.11:058][ 12]Cmd: MEM
+[2017.09.21-23.51.11:078][ 12]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-23.51.11:079][ 12]LogMemory: Process Physical Memory: 1866.02 MB used, 1913.55 MB peak
+[2017.09.21-23.51.11:079][ 12]LogMemory: Process Virtual Memory: 2727.19 MB used, 2777.00 MB peak
+[2017.09.21-23.51.11:079][ 12]LogMemory: Physical Memory: 8228.47 MB used,  8038.53 MB free, 16267.00 MB total
+[2017.09.21-23.51.11:079][ 12]LogMemory: Virtual Memory: 3697.11 MB used,  8038.53 MB free, 134217728.00 MB total
+[2017.09.21-23.51.11:079][ 12]LogMemory: 
+[2017.09.21-23.51.11:079][ 12]Allocator Stats for TBB: (not implemented)
+[2017.09.21-23.51.11:091][ 12]LogAIModule: Creating AISystem for world LD_Slow_Him_Down
+[2017.09.21-23.51.11:091][ 12]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.09.21-23.51.11:102][ 12]LogWorld: Bringing World /Game/Maps/UEDPIE_1_LD_Slow_Him_Down.LD_Slow_Him_Down up for play (max tick rate 60) at 2017.09.21-19.51.11
+[2017.09.21-23.51.11:102][ 12]LogWorld: Bringing up level for play took: 0.009806
+[2017.09.21-23.51.11:103][ 12]LogLoad: Took 0.069128 seconds to LoadMap(/Game/Maps/UEDPIE_2_LD_Slow_Him_Down)
+[2017.09.21-23.51.11:103][ 12]LogNet: Client netspeed is 10000
+[2017.09.21-23.51.11:103][ 12]LogNet: Join request: /Game/Maps/LevelMenu?SplitscreenCount=1
+[2017.09.21-23.51.11:104][ 12]LogNet: Join succeeded: 270
+[2017.09.21-23.51.13:338][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.51.13:446][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down' with GeneratedClass '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down_C' with ClassGeneratedBy '/Game/Maps/LD_Slow_Him_Down.LD_Slow_Him_Down:PersistentLevel.LD_Slow_Him_Down'
+[2017.09.21-23.51.13:471][103]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51658, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.13:471][103]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51658, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 9, Time: 2017.09.21-23.51.13
+[2017.09.21-23.51.13:471][103]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51658, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.13:471][103]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.13:471][103]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 5, Time: 2017.09.21-23.51.13
+[2017.09.21-23.51.13:471][103]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.09.21-23.51.13:475][103]LogExit: GameNetDriver None shut down
+[2017.09.21-23.51.13:475][103]LogExit: GameNetDriver None shut down
+[2017.09.21-23.51.21:447][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.21-23.51.21:525][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.21-23.51.36:172][416]BlueprintLog: New page: Compile BP_TrapPunch
+[2017.09.21-23.51.39:099][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Traps/BP_TrapPunch" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset" SILENT=true
+[2017.09.21-23.51.39:206][499]LogSavePackage: Save=85.44ms
+[2017.09.21-23.51.39:206][499]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/BP_TrapPunch22D1F69347ED1BB0C68FBD97703874A4.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset'
+[2017.09.21-23.51.39:208][499]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/BP/Traps/BP_TrapPunch.uasset
+[2017.09.21-23.51.47:337][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.21-23.51.51:010][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LD_Slow_Him_Down" FILE="D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/LD_Slow_Him_Down.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.21-23.51.51:353][176]LogSavePackage: Save=304.04ms
+[2017.09.21-23.51.51:353][176]LogSavePackage: Moving 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/LD_Slow_Him_Down28A9AA344B01DBE2733D208BC5B17412.tmp' to 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/LD_Slow_Him_Down.umap'
+[2017.09.21-23.51.51:355][176]LogSavePackage: Display: Finished SavePackage D:/GameJam1_MakeHimFall/MakeHimFall/Content/Maps/LD_Slow_Him_Down.umap
+[2017.09.21-23.51.55:550][230]Cmd: QUIT_EDITOR
+[2017.09.21-23.51.56:106][230]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-23.51.56:116][230]LogExit: Preparing to exit.
+[2017.09.21-23.51.56:839][230]LogExit: Editor shut down
+[2017.09.21-23.51.56:848][230]LogExit: Transaction tracking system shut down
+[2017.09.21-23.51.57:039][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.21-23.51.57:039][230]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/' was aborted.
+[2017.09.21-23.51.57:039][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.21-23.51.57:039][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.21-23.51.57:039][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.21-23.51.57:133][230]LogExit: Object subsystem successfully closed.
+[2017.09.21-23.51.57:149][230]LogD3D11RHI: Shutdown
+[2017.09.21-23.51.57:149][230]LogD3D11RHI: CleanupD3DDevice
+[2017.09.21-23.51.57:210][230]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.21-23.51.57:243][230]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.21-23.51.57:243][230]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.21-23.51.57:244][230]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.21-23.51.57:244][230]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.21-23.51.57:244][230]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.21-23.51.57:244][230]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Collections/' was aborted.
+[2017.09.21-23.51.57:244][230]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Content/Developers/JeanMaxime/Collections/' was aborted.
+[2017.09.21-23.51.57:244][230]LogDirectoryWatcher: A directory notification for 'D:/GameJam1_MakeHimFall/MakeHimFall/Saved/Collections/' was aborted.
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.21-23.51.57:245][230]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.21-23.51.57:246][230]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.21-23.51.57:246][230]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.21-23.51.57:246][230]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.21-23.51.57:246][230]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.21-23.51.57:246][230]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.21-23.51.57:899][230]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.21-23.51.57:900][230]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.21-23.51.57:964][230]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.21-23.51.57:964][230]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.21-23.51.57:964][230]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.21-23.51.57:964][230]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.21-23.51.57:964][230]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.21-23.51.57:965][230]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.21-23.51.57:965][230]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.21-23.51.57:965][230]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.21-23.51.57:965][230]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.21-23.51.57:965][230]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.21-23.51.57:973][230]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.21-23.51.58:102][230]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.21-23.51.58:103][230]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.21-23.51.58:104][230]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.21-23.51.58:205][230]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.21-23.51.58:306][230]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.21-23.51.58:307][230]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.21-23.51.58:310][230]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.21-23.51.58:311][230]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.21-23.51.58:312][230]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.21-23.51.58:316][230]LogDerivedDataCache: Shutdown
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.21-23.51.58:316][230]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.21-23.51.58:317][230]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.21-23.51.58:317][230]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.21-23.51.58:317][230]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.21-23.51.58:317][230]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA87EFD78-4ECF-B0B0-10B8-7099C00A45D2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=813752124354e19d5db43da2575d523d%7Cb08348a7138a48b4a524bb2d648592d7%7Ca23590b9-0628-4d38-a4a7-d0c72dd4835d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.21-23.51.58:343][230]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.21-23.51.58:344][230]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.21-23.51.58:344][230]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.21-23.51.58:344][230]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.21-23.51.58:344][230]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.21-23.51.58:344][230]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.21-23.51.58:345][230]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.21-23.51.58:345][230]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.21-23.51.58:350][230]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.21-23.51.58:353][230]LogExit: Exiting.
+[2017.09.21-23.51.58:372][230]Log file closed, 09/21/17 19:51:58
